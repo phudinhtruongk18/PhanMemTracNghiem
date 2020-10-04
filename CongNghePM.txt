@@ -1,0 +1,57 @@
+4
+1
+Ai là người không thích hợp để tham dự vào nhóm FAST (facilitated application specification techniques)
+Kỹ s ư ph ần cứng và phần mềm
+0.5
+1
+Đại diệ n nhà sản xuất
+1.5
+0
+Đại diệ n thị trường
+2.5
+0
+Nhân viên tài chánh cao cấp
+0
+0
+1
+Ba giai đoạn tổng quát của công nghệ phần mềm 
+definition, development, support
+0
+0
+what, how, where
+0
+1
+programming, debugging, maintenance
+0
+0
+analysis, design, testing
+0
+0
+1
+Biể u đồ dị ch chuyển trạng thái
+Đư a ra hình ảnh v ề các đối tượng d ữ liệu
+0
+0
+Đư a ra hình ảnh chức năng biến đổi luồng dữ liệu
+0
+0
+Chỉ ra hình ảnh dữ li ệu được bi ến đ ổi nh ư thế nào bởi hệ thống
+0
+1
+Chỉ ra những tương tác của hệ thống đối với sự ki ện bên ngoài
+0
+0
+1
+Biể u đồ dòng điều khiển
+Cần thiế t để mô hình những hệ thống hướng sự kiện
+0
+0
+Được đòi hỏi cho tất cả h ệ thống
+0
+0
+Được dùng trong biểu đồ dòng dữ liệu
+0
+0
+Hữ u dụng trong mô hình hóa giao diện người dùng
+0
+1
