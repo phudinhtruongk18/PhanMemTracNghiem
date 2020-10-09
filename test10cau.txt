@@ -1,0 +1,1751 @@
+10
+1
+Ai là người không thích hợp để tham dự vào nhóm FAST (facilitated application specification techniques)
+Kỹ sư phần cứng và phần mềm
+0
+0
+Đại diệ n nhà sản xuất
+0
+0
+Đại diệ n thị trường
+0
+0
+Nhân viên tài chánh cao cấp
+0
+1
+1
+Ba giai đoạn tổng quát của công nghệ phần mềm 
+definition, development, support
+0
+1
+what, how, where
+0
+0
+programming, debugging, maintenance
+0
+0
+analysis, design, testing
+0
+0
+1
+Biể u đồ dị ch chuyển trạng thái
+Đư a ra hình ảnh v ề các đối tượng d ữ liệu
+0
+0
+Đư a ra hình ảnh chức năng biến đổi luồng dữ liệu
+0
+0
+Chỉ ra hình ảnh dữ li ệu được bi ến đ ổi nh ư thế nào bởi hệ thống
+0
+0
+Chỉ ra những tương tác của hệ thống đối với sự ki ện bên ngoài
+0
+1
+1
+Biể u đồ dòng điều khiển
+Cần thiế t để mô hình những hệ thống hướng sự kiện
+0
+1
+Được đòi hỏi cho tất cả h ệ thống
+0
+0
+Được dùng trong biểu đồ dòng dữ liệu
+0
+0
+Hữ u dụng trong mô hình hóa giao diện người dùng
+0
+0
+1
+Biể u đồ quan hệ thực thể
+Đưa ra hình ảnh quan hệ giữa các đối tượng dữ li ệu
+0
+1
+Đư a ra hình ảnh những chức năng biến đổi luồng d ữ liệu
+0
+0
+Chỉ ra những quyết định logic chính khi chúng xuất hiện
+0
+0
+Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+0
+0
+1
+Cách tốt nhất để đưa tới việc xem xét việc đánh giá yêu cầu là
+Kiể m tra lỗi mô hình hệ thống
+0
+0
+Nhờ khách hàng kiểm tra yêu cầu
+0
+0
+Gởi họ t ới đội thiết kế và xem họ có sự quan tâm nào không
+0
+0
+Dùng danh sách các câu hỏi kiểm tra để kiểm tra mỗi yêu cầu
+0
+1
+1
+Cấp bậc điều khiển thể hiện
+Thứ tự quyết định
+0
+0
+Việ c tổ chức của các module
+0
+1
+Sự lặp lại của những hoạt động
+0
+0
+Sự tuần tự của các tiến trình
+0
+0
+1
+Câu hỏi không được kỹ s ư phần mềm hiện nay quan tâm nữa
+Tại sao chi phí phần c ứng máy tính quá cao?
+0
+1
+Tạ i sao phần mềm mất một thời gian dài để hoàn tất?
+0
+0
+Tại sao người ta t ốn nhi ếu chi phí để phát tri ển m ột mẩu phần mềm?
+0
+0
+Tại sao những lỗi ph ần mềm không đ ược loại bỏ trong sản phẩm trước khi xuất xưởng
+0
+0
+1
+Cấu trúc thông tin biểu diển tổ chức nội của
+Những cấu trúc dữ liệu dùng để biểu diễn loại dữ liệu
+0
+0
+Mô hình bố trí nhân viên dự án
+0
+0
+Mô hình truyền thông dự án
+0
+0
+Những dữ liệu khác nhau và những mục điều khiển
+0
+1
+1
+Chất lượng sản phẩm liên quan: product operation, product transition, product revision. Thuộc tính nào liên quan tới product revision:
+Reliability
+0
+0
+Maintainability
+0
+0
+Testability
+0
+1
+Portability
+0
+0
+1
+Chỉ phát biểu sai, bộ 3 ràng buộc
+Phạm vi
+0
+0
+Thời gian
+0
+0
+Chi phí
+0
+0
+Chất lượng
+0
+1
+1
+Chỉ phát biểu sai, các nhóm phần mềm (SUB-Team):
+Gồm một nhóm người
+0
+0
+Sub-Team System analysis có nhi ệm vụ ước tính lợi nhuận
+0
+0
+Gồ m mộ t số người và nó phải tồn tại trong suốt dự án
+0
+1
+Có thể 1 người
+0
+0
+1
+Chỉ phát biểu sai, để đạt được độ đo PUM thấp:
+Cải tiến quy trình
+0
+0
+Giảm lỗi giá
+0
+0
+Gia tăng số bản bán được
+0
+0
+Giảm thờ i gian sửa lỗi
+0
+1
+1
+Chỉ phát biểu sai. Kiểm thử áp lực
+Thường áp d ụng trong hệ thống phân bố
+0
+0
+Nế u quá tải thiết kế thì không cần xem xét tới lỗi hệ thống
+0
+1
+Có thể xem là một dạng của kiểm thử thực thi
+0
+0
+Thử thách dựa vào tải thiết kế c ực đại
+0
+0
+1
+Chỉ phát biểu sai, lãnh vực hỗ trợ trong quản lý dự án
+Quản lý rủi ro
+0
+0
+Quản lý mua sắm
+0
+0
+Quản lý tích hợp
+0
+1
+Quản lý truyền thông
+0
+0
+1
+Chỉ phát biểu sai. Mô hình hướng ngắt
+Cho phép đáp ứng nhanh
+0
+0
+Dễ lập trình
+0
+1
+Ít gây ra xung đột
+0
+0
+Thường dùng trong hệ thống thời gian thực
+0
+0
+1
+Chỉ phát biểu sai. Phương pháp Brute Force
+“Để máy tính tìm ra l ỗi”
+0
+0
+Gần giống với phương pháp “vét cạn”
+0
+0
+Là mộ t phương pháp hiệu quả
+0
+1
+Thường lặp đi lặp lại thủ t ục đơn giản nhiều lần
+0
+0
+1
+Chỉ phát biểu sai. Thiết kế dữ liệu ở mức thành phần:
+Thiế t kế cơ sở dữ liệu
+0
+1
+Hiệ n thực thuộc tính dữ liệu thành cấu trúc dữ liệu
+0
+0
+Phát triển một t ập nh ững trừu tượng d ữ liệu
+0
+0
+Tinh chế các đ ối t ượng dữ liệu
+0
+0
+1
+Chỉ phát biểu sai. V & V (Verification and Validation)
+Đánh giá hệ thống có tính s ử dụng hay không
+0
+0
+Liên quan t ới vấn đề debug và bảo mật
+0
+0
+Nó và kiểm thử là hai lãnh vực riêng
+0
+1
+Nhằm kiểm tra phần m ềm phải thực hiện những gì người dùng thực sự c ần
+0
+0
+1
+Chỉ ra mục sai. Trong mô hình WebE trong mô hình phân tích có
+Phân tích nội dung
+0
+0
+Phân tích cấu hình
+0
+0
+Phân tích tương tác
+0
+0
+Phân tích điều hướng (naviation)
+0
+1
+1
+Chỉ ra phát biểu sai. Help:
+Có nhiều điểm vào nên người dùng có thể vào hệ thống help từ nhiều nơi 
+0
+0
+Help! Nghĩa là “Help. I’m in trouble”
+0
+0
+Help như một số tay h ướng dẫn on-line
+0
+1
+Nhữ ng chỉ báo cho biết vị trí của người dùng trong hệ thống help
+0
+0
+1
+Chỉ ra phát biểu sai. Quá trình kiểm nghiệm phần mềm 
+Phải có khả năng tìm ra lỗi cao
+0
+0
+Phải có tính chọn lọc
+0
+0
+Nhằm xác định ph ần mềm không có lỗi
+0
+1
+Không nên dư thừa và quá phức tạp
+0
+0
+1
+Chọn 5 hoạt động chính, tổng quát trong quá trình xây dựng phần mềm
+Giao tiếp, l ập kế ho ạch, mô hình hóa, xây dựng, tri ển khai
+0
+1
+Phân tích, thiết kế, lập trình, gỡ l ỗi, bảo trì
+0
+0
+Không có mục nào
+0
+0
+Giao tiếp, quản lý rủi ro, ước lượng, sản xuất, kiểm tra lại
+0
+0
+1
+Có mấy loại vòng lặp
+4
+0
+1
+3
+0
+0
+2
+0
+0
+5
+0
+0
+1
+Công nghệ Web có những đặc điểm
+Nó thường dùng mô hình gia tăng (incremental process model)
+0
+0
+Thời gian chuyển giao sản phẩm rất nhanh
+0
+0
+Những thay đổi (change) diễn ra nhanh chóng
+0
+0
+Nó là một công nghệ mới, nó cần phải tách xa công nghệ trước đây
+0
+1
+1
+Dòng thông tin biểu diễn cách thức mà dữ liệu và điều khiển
+Quan hệ với một dữ liệu và điều khiển khác
+0
+0
+Biến đổi khi mỗi lần dịch chuyển qua hệ thống
+0
+1
+Sẽ được thực thi trong thiết kế cuối cùng
+0
+0
+Không có mục nào
+0
+0
+1
+Đặc điểm nào sau đây được sử dụng để đánh giá một bản thiết kế tốt?
+Thể hiện tất cả các yêu cầu trong pha phân tích
+0
+0
+Chứa cả các trường hợp kiểm thử của tất cả các thành phần
+0
+0
+Cung cấp một mô tả hoàn thiện về phần mềm
+0
+0
+Câu a và c
+0
+1
+1
+Đặc tả hệ thống mô tả
+Chức năng và hành vi của hệ thống dựa vào máy tính
+0
+1
+Việc thi hành của mỗi thành ph ần hệ thống được ch ỉ
+0
+0
+Chi tiết giải thuật và cấu trúc hệ thống
+0
+0
+Thời gian đòi hỏi cho việc giả lập hệ thống
+0
+0
+1
+Đặc trưng nào là đúng cho kho dữ liệu, không phải là cơ sở dữ liệu đặc trưng 
+Hướng mức nghiệp vụ và kích thước lớn
+0
+0
+Thông tin đúng và hợp thời
+0
+0
+Tích hợp và không thường thay đổi
+0
+1
+Tất cả những mục trên
+0
+0
+1
+Để xây dựng mô hình hệ thống, kỹ sư phải quan tâm tới một trong những nhân tố hạn chế sau:
+Những giả định và những ràng buộc
+0
+1
+Ngân sách và phí tổn
+0
+0
+Những đối tượng và những hoạt động
+0
+0
+Lịch biểu và các mốc sự kiện
+0
+0
+1
+Đích của kỹ thuật đặc tả ứng dụng thuận tiện (FAST - facilitated application specification techniques) là nhờ người phát triển và khách hàng
+Xây dựng một nguyên mẫu nhanh chóng
+0
+0
+Học công việc lẫn nhau
+0
+0
+Làm việc với nhau để phát triển một tập những yêu cầu ban đầu
+0
+1
+Làm việc với nhau để phát triển những đặc tả phần mềm kỹ thuật
+0
+0
+1
+Độ đo chất lượng của việc khử lỗi là tỷ số của
+Số lần giải quyết trong tháng và tổng số v ấn đề phát sinh trong tháng
+0
+0
+Số lần bảo trì vượt thời gian quy định và tổng số lần bảo trì
+0
+0
+Tát cả đều đúng
+0
+0
+Số lần sai lầm trong việc sửa lỗi và tổng số lần sửa lỗi
+0
+1
+1
+FP (Function Point) là
+Độ đo sản phẩm cuối
+0
+0
+Độ đo năng suất phần mềm hướng kích thước
+0
+0
+Tất cả đều sai
+0
+1
+Độ đo năng suất phần mềm hướng chức năng
+0
+0
+1
+Hình thức kiểm nghiệm tích hợp hướng đối tượng
+Kiểm nghiệm trên cơ sở thread
+0
+0
+Kiểm nghiệm trên cơ sở sử dụng
+0
+0
+Câu a, b đúng
+0
+1
+Câu a, b sai
+0
+0
+1
+Hướng debug
+Backtracking
+0
+0
+Brute force
+0
+0
+Sự loại trừ nguyên nhân
+0
+0
+Tất cả các mục
+0
+1
+1
+Hướng tiếp cận nào để những phân tích tác vụ của người dùng trong thiết kế giao diện người dùng
+Người dùng cho biết những ưa thích qua bản câu hỏi
+0
+0
+Dựa vào ý kiến của những lập trình viên có kinh nghiệm
+0
+0
+Nghiên cứu những hệ thống tự động liên quan
+0
+0
+Quan sát thao tác người dùng
+0
+1
+1
+Khả năng được chấp nhận trong các yêu cầu đối với phần mềm
+Là tính tin cậy
+0
+0
+Tất cả đều sai
+0
+0
+Là sự chấp nhận được về giao diện
+0
+0
+Là sự phù hợp với yêu cầu người sử dụng
+0
+1
+1
+Khi lu ồng thông tin trong một đoạn của sơ đồ luồng dữ liệu thể hiện bằng một mục đơn mà bẩy một luồng dữ liệu khác theo một trong nhiều đường sẽ thể hiện
+Liên kết th ấp
+0
+0
+Module hóa tốt
+0
+0
+Luồng giao dịch (transaction)
+0
+1
+Luồng biến đổi (transform)
+0
+0
+1
+Khi một luồng tổng thể trong một đoạn của biểu đồ luồng dữ liệu có tính trình tự cao và theo sau những những đường thẳng sẽ thể hiện
+Liên kết thấp
+0
+0
+Module hóa tốt
+0
+0
+Luồng giao dịch (transaction)
+0
+0
+Luồng biến đổi (transform)
+0
+1
+1
+Khung nhìn (view) nào được quan tâm đầu tiên trong phân tich yêu cầu phần mềm 
+actor view
+0
+0
+data view
+0
+0
+essential view
+0
+1
+implementation view
+0
+0
+1
+Kiểm nghiệm hướng đối tượng thường dùng
+Kiểm nghiệm tích hợp đ ối t ượng
+0
+1
+Kiểm nghiệm hộp đen
+0
+0
+Kiểm nghiệm thừa kế
+0
+0
+Kiểm nghiệm hộp trắng
+0
+0
+1
+Kiểm nghiệm tích hợp module
+Có thể tích hợp từ trên xuống dưới
+0
+1
+Tát cả đều đúng
+0
+0
+Có thể tích hợp từ dưới lên theo cách tích hợp theo chiều ngang
+0
+0
+Có thể tích hợp từ dưới lên theo cách tích hợp theo chiều sâu
+0
+0
+1
+Kiểm thử Black-Box cố gắng tìm ra những lỗi
+Chức năng không đầy đủ hay không đúng
+0
+0
+Những lỗi giao diện
+0
+0
+Những lỗi thực thi
+0
+0
+Tất cả mục trên
+0
+1
+1
+Kiểm thử điều kiện là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case
+Dựa vào kiểm thử đường cơ bản
+0
+0
+Thử thách điều kiện logic trong module phần mềm
+0
+1
+Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến 
+0
+0
+Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+0
+0
+1
+Kiểm thử lặp là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case
+Dựa vào kiểm thử đường cơ bản
+0
+0
+Thử thách điều kiện logic trong module phần mềm
+0
+0
+Chọn những đường dẫn kiểm tra dựa vào những vị trí và dùng những biến
+0
+0
+Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+0
+1
+1
+Kiểm thử luồng dữ liệu là một kỹ thuật kiểm thử cấu trúc điều khiển mà những tiêu chuẩn dùng để thiết kế test-case
+Dựa vào kiểm thử đường cơ bản
+0
+0
+Thử thách điều kiện logic trong module phần mềm
+0
+0
+Chọ n những đường dẫn ki ểm tra dựa vào những vị trí và dùng những biến 
+0
+1
+Tập trung vào việc kiểm thử việc giá trị những cấu trúc lặp
+0
+0
+1
+Kiểm thử tích hợp bottom-up có những thuận lợi chính 
+Những điểm quyết định chính được kiểm thử sớm 
+0
+0
+Không có những driver cần được viết
+0
+0
+Không có những stub (nhánh) cần phải viết
+0
+1
+Không đòi hỏi kiểm thử hồi quy (regression)
+0
+0
+1
+Kiểm thử tích hợp Top-down có thuận lợi chính là
+Những module mức thấp không bao giờ cần kiểm thử
+0
+0
+Những điểm quyết định chính được kiểm thử sớm
+0
+1
+Không có những stub cần phải viết
+0
+0
+Không có mục nào
+0
+0
+1
+Kiểm thử vòng lặp lồng nhau
+Tất cả đều đúng
+0
+0
+Khi xét vòng lặp nào thì cần test Min+1, typical, max-1
+0
+1
+Kiểm thử từ ngoài vào trong
+0
+0
+Nếu các vòng lặp là độc lập thì xem như là vòng lặp đơn
+0
+0
+1
+Liên kết (Coupling) là một chỉ báo chất lượng cho biết mức độ mà module
+Tập trung vào chỉ một điều
+0
+0
+Kết nối với module khác và môi trường bên ngoài
+0
+1
+Có thể hoàn thành chức năng của nó trong một cách thức phù hợp về thời gian
+0
+0
+Có thể được viết với sự rắn chắc nhiều h ơn
+0
+0
+1
+Loại mô hình nào được tạo ra trong phân tích yêu cầu phần mềm
+Chức năng và hành vi
+0
+1
+Giải thuật và cấu trúc dữ liệu
+0
+0
+Kiến trúc và cấu trúc
+0
+0
+Tính tin cậy và tính sử dụng
+0
+0
+1
+Loại mô hình nào không được có trong kiến trúc phần mềm
+Dữ li ệu
+0
+1
+Động
+0
+0
+Xử lý
+0
+0
+Cấu trúc
+0
+0
+1
+Loại trừu tượng nào được dùng trong thiết kế phần mềm
+Điều khiển
+0
+0
+Dữ liệu
+0
+0
+Thủ tục
+0
+0
+Tất cả mục trên
+0
+1
+1
+Lý do tốt nhất cho việc dùng nhóm kiểm tra phần mềm độc lập là
+Nhữ ng người phát triển phần mềm không cần làm bất kỳ kiểm thử nào
+0
+0
+Nhữ ng người lạ s ẽ kiểm phần mềm rất chặt
+0
+0
+Nhữ ng người kiểm thử không được dính dáng tới dự án cho đến khi kiểm thử bắt đầu
+0
+0
+Mâu thuẩn về quy ền l ợi giữa nh ững người phát triển và nh ững người ki ểm thử sẽ giảm
+0
+1
+1
+Mật độ lỗi (defect density) thuộc độ đo
+Độ đo ch ất l ượng sản phẩm cuối
+0
+1
+Độ đo quá trình s ản xuất
+0
+0
+Độ đo dự án phần mềm
+0
+0
+Độ đo chất lượng bảo trì
+0
+0
+1
+Mẫu kiến trúc nhấn mạnh tới những thành phần
+Ràng bu ộc
+0
+0
+Tập hợp những thành phần
+0
+0
+Mô hình ngữ nghĩa
+0
+0
+Tất cả những mục
+0
+1
+1
+Mẫu mô hình hệ thống chứa thành phần
+Input
+0
+0
+Output
+0
+0
+Giao diện người dùng
+0
+0
+Tất cả mục trên
+0
+1
+1
+Milestone
+Thường có output là những word product
+0
+0
+Là thời điểm cuối của m ột hoạt động xử lý
+0
+0
+Có thể chuyển giao một két quả c ủa dự án
+0
+0
+Tất cả đều đúng
+0
+1
+1
+Mô hình nào đưa ra hình ảnh hệ thống trong đầu của người dùng cuối 
+Mô hình thiết kế
+0
+0
+Mô hình người dùng
+0
+0
+Hình ảnh hệ thống
+0
+0
+Mô hình nhận thức hệ thống
+0
+1
+1
+Mô hình nào đưa ra hình ảnh look and feel cho giao diện người dùng cùng những thông tin hỗ trợ 
+Mô hình thiết kế
+0
+0
+Mô hình người dùng
+0
+0
+Mô hình hình ảnh hệ thống
+0
+1
+Mô hình nhận thức hệ thống
+0
+0
+1
+Mô hình nào đưa ra hình ảnh tiền sử (profile) người dùng cuối của hệ thống dựa vào máy tính a. Mô hình thiết kế
+Mô hình thiết kế
+0
+1
+Mô hình người dùng
+0
+1
+Mô hình của người dùng
+0
+0
+Mô hình nhận thức hệ thống
+0
+0
+1
+Mô hình phát triển dựa vào thành phần
+Chỉ phù hợp cho thiết kế phần c ứng máy tính
+0
+0
+Không thể hỗ trợ phát triển nh ững thành phần sử dụng lại 
+0
+0
+Dựa vào những k ỹ thu ật h ỗ tr ợ đối t ượng
+0
+1
+Không định chi phí hiệu quả bằng những độ đo phần mềm có thể định lượng
+0
+0
+1
+Câu 63. Mô hình phát triển phần mềm dựa trên mẫu thử là
+Một mô hình rất rủi ro, khó đưa ra được một sản phẩm tốt
+0
+0
+Phương pháp tốt nhất được sử dụng trong các dự án có nhiều thành viên
+0
+0
+Một phương pháp hữu ích khi khách hàng không thể xác định yêu cầu một cách rõ ràng 
+0
+1
+Một phương pháp thích h ợp được sử dụng khi các yêu cầu đã được xác định rõ ràng
+0
+0
+1
+Câu 64: Mô hình phát triển phần mềm lặp lại tăng thêm
+Một hướng hợp lý khi yêu cầu được xác định rõ
+0
+0
+Một hướng tốt khi cần tạo nhanh một sản phẩm thực thi lõi
+0
+1
+Một hướng tốt nhất dùng cho những dự án có những nhóm phát triển lớn
+0
+0
+Một mô hình cách mạng không nhưng không được dùng cho sản phẩm thương mại
+0
+0
+1
+Câu 65. Mô hình phát triển phần mềm tuần tự tuyến tính còn gọi là
+Mô hình hỗn đ ộn
+0
+0
+Mô hình nước suối
+0
+0
+Mô hình xoắn ốc
+0
+0
+Mô hình chu kỳ sống cổ điển
+0
+1
+1
+Câu 66. Mô hình phát triển phần mềm xoắn ốc
+Kết thúc với vi ệc xu ất xưởng s ản phẩm phần mềm 
+0
+0
+Nhiều h ỗn độn hơn với mô hình gia tăng
+0
+0
+Bao gồ m vi ệ c đánh giá những rủi ro phần mềm trong mỗi vòng lặp 
+0
+1
+Tất cả điều trên
+0
+0
+1
+Câu 67. Mô hình phát triển ứng dụng nhanh
+Một cách gọi khác của mô hình phát triển dựa vào thành phần
+0
+0
+Một cách h ữu dụng khi khách hàng không xàc định yêu cầu rõ ràng 
+0
+0
+Sự ráp nối tốc độ cao của mô hình tuần tự tuyến tính
+0
+1
+Tất cả mục trên
+0
+0
+1
+Câu 68. Mô hình thiết kế không quan tâm tới
+Kiến trúc
+0
+0
+Dữ liệu
+0
+0
+Giao diện
+0
+0
+Phạm vi dự án
+0
+1
+1
+Câu 69. Mô hình tiến trình phần mềm tiến hóa
+Bản chất lặp
+0
+0
+Dễ dàng điều tiết những biến đổi yêu cầu sản phẩm
+0
+0
+Nói chung không tạo ra những sản phẩm bỏ đi
+0
+0
+Tất cả các mục
+0
+1
+1
+Câu 70. Một bảng quyết định được dùng
+Để tư liệu tất cả những trạng thái phụ thuộc
+0
+0
+Để hướng dẫn phát triển kế hoạch quản lý dự án
+0
+0
+Chỉ khi xây dựng h ệ chuyên gia
+0
+0
+Khi mộ t tập phức tạ p những điều kiện và hoạt động xuất hiện trong thành phần
+0
+1
+1
+Câu 71. Một bổ sung cần thiết nhằm biến đổi hay ánh xạ giao dịch để tạo một thiết kế kiến trúc đầy đủ là 
+Sơ đồ quan hệ - thực thể
+0
+0
+Từ điển dữ liệu
+0
+0
+Mô tả việc xử lý cho mỗi module
+0
+1
+Những Test-case cho mỗi module
+0
+0
+1
+Câu 72. Một đặc trưng của thiết kế tốt là
+Cho thấy s ự liên kết mạnh giữa các module
+0
+0
+Thực hiện tất cả yêu cầu trong phân tích
+0
+1
+Bao gồm những test case cho tất cả thành phần
+0
+0
+Kết hợp mã nguồn nhằm mục đích mô tả
+0
+0
+1
+Câu 73. Mục đích của tham chiếu chéo những yêu cầu (ma trận) trong tài liệu thiết kế là nhằm
+Cho phép người quản lý theo dõi năng suất của nhóm thiết kế
+0
+0
+Xác minh là tất cả các yêu cầu đã được xem xét trong thiết kế
+0
+1
+Chỉ ra chi phí kết hợp với mỗi yêu cầu
+0
+0
+Cung cấp cho việc thực thi tên của những nhà thiết kế cho mỗi yêu cầu
+0
+0
+1
+Câu 74. Mục nào không là đặc trưng chung trong các phương pháp thiết kế
+Quản lý cấu hình
+0
+1
+Ký hiệu thành phần chức năng
+0
+0
+Nguyên tắc đánh giá chất lượng
+0
+0
+Heuristic tinh chế
+0
+0
+1
+Câu 75. Mục nào không là một mẫu kiến trúc (pattern)? Mẫu
+Concurrency
+0
+0
+Persistence
+0
+0
+Distribution
+0
+0
+Borker
+0
+1
+1
+Câu 76. Mục nào không là một mục đích cho việc xây dựng một mô hình phân tích 
+Xác định một tập những yêu cầu phần mềm
+0
+0
+Mô tả yêu cầu khách hàng
+0
+0
+Phát triển một gi ải pháp tóm t ắt cho v ấn đề
+0
+1
+Thiế t lập một nền tảng cho thiết kế phần mềm
+0
+0
+1
+Câu 77.	Mụ c nào không là một phần của kiến trúc phần mềm
+Chi tiế t gi ải thuật
+0
+1
+Cơ s ở dữ liệu
+0
+0
+Thiế t kế dữ liệu
+0
+0
+Cấu trúc chương trình
+0
+0
+1
+Câu 78. Mụ c nào không phải là một loại kiến trúc (style): kiến trúc
+Luồng d ữ liệu
+0
+0
+Kiế n trúc ngữ cảnh
+0
+1
+Gọi trả về
+0
+0
+Tầng
+0
+0
+1
+Câu 79. Mụ c nào liên quan tới phân tích người dùng:
+Mô hình hệ thống của ng ười dùng
+0
+0
+Trong tình huống đặc tr ưng thì người dùng thực hiện công việc gì?
+0
+0
+Nhữ ng feedback từ việc đánh giá của người dùng
+0
+0
+Nế u ngườ i dùng x ảy ra lỗi thì hậu quả như thế nào?
+0
+1
+1
+Câu 80. Ngôn ngữ thiế t kế chương trình (PDL) thường là một
+Sự kế t hợ p giữa c ấu trúc l ập trình và văn bản tường thuật 
+0
+1
+Ngôn ngữ lập trình truyền thống theo luật riêng của nó
+0
+0
+Ngôn ngữ phát tri ển ph ần m ềm có thể đọc bởi máy 
+0
+0
+Một cách hữu dụng để biểu diễn kiến trúc phần mềm
+0
+0
+1
+Câu 81. Nguyên nhân của việc sinh lỗi do thiết kế mức thành ph ần tr ước khi thiết k ế dữ liệu là 
+Thiế t kế thành phần thì phụ thuộc vào ngôn ngữ còn thiết kế dữ liệu thì không
+0
+0
+Thiế t kế dữ liệu thì dễ thực hiện hơn
+0
+0
+Thiế t kế dữ liệu thì khó thực hiện
+0
+0
+Cấu trúc dữ liệu thường ảnh hưởng tới cách thức mà thíết kế thành phần phải theo
+0
+1
+1
+Câu 82. Nhằm xác định nh ững mẫu kiến trúc hay kết hợp những mẫu phù hợp nhất cho hệ thống đề nghị, kỹ thuật yêu cầu dùng để khám phá
+Giải thu ật phức tạp
+0
+0
+Đặc trưng và ràng buộc
+0
+1
+Điề u khiển và dữ liệu
+0
+0
+Nhữ ng mẫu thiết kế
+0
+0
+1
+Câu 83. Nhiề u đo lường hữu dụng có thể thu thập khi quan sát những người dùng tương tác với hệ thống máy tính gồm
+Thờ i gian cho ứng dụng
+0
+0
+Số khiế m khuyế t (defect) phần mềm
+0
+0
+Tính tin cậ y của phần mềm
+0
+0
+Thời gian đọ c tài liệu trợ giúp
+0
+1
+1
+Câu 84. Những bản câu hỏi có ý nghĩa nhất đối với những người thiết kế giao diện khi được hoàn tất bởi
+Khách hàng
+0
+0
+Nhữ ng lập trình viên có kinh nghiệm
+0
+0
+Ngườ i dùng sản phẩm
+0
+1
+Người quản lý d ự án
+0
+0
+1
+Câu 85. Những độ đo phức tạp vòng (cyclomatic complexity metric) cung cấp cho người thiết kế thống tin về s ố
+Chu kỳ trong chương trình
+0
+0
+Số lỗi trong chương trình
+0
+0
+Những đường logic độc lập trong chương trình
+0
+1
+Nhữ ng phát biểu của chương trình
+0
+0
+1
+Câu 86. Những gì làm cho khó đưa ra những yêu cầu
+Hiể u rõ những yêu cầu người dùng
+0
+0
+Sự thay đổi
+0
+0
+Tất cả các mục
+0
+1
+Phạm vi, giới hạn
+0
+0
+1
+Câu 87. Những hệ thống phát triển giao diện người dùng đặc trưng cung cấp những kỹ thuật cho việc xây dự ng những nguyên mẫu giao diện bao gồm
+Tạo code
+0
+0
+Nhữ ng tool vẽ
+0
+0
+Đị nh trị input
+0
+0
+Tất cả mục trên
+0
+1
+1
+Câu 88. Những hoạt động khung nào thường không kết hợp với những quá trình thiết kế giao diện người dùng
+Ướ c lượng giá
+0
+1
+Xây dựng giao diện
+0
+0
+Đị nh trị giao diện
+0
+0
+Phân tích người dùng và tác vụ
+0
+0
+1
+Câu 89. Những kiểm tra chấp nhận thường được đưa ra bởi 
+Người phát triển
+0
+0
+Những ng ườ i dùng cuối
+0
+1
+Nhóm kiểm thử
+0
+0
+Những kỹ sư hệ thống
+0
+0
+1
+Câu 90. Những mục nào không là nguyên tắc cho vi ệc biểu di ễn yêu cầu 
+Biểu đồ phải thu hẹp về số và toàn vẹn trong sử dụng
+0
+0
+Hình thức và nội dung biểu diễn thích hợp với nội dung 
+0
+0
+Nhữ ng biểu diễn phải có thể xem xét lại
+0
+0
+Dùng không hơn 7 màu dương và 2 màu âm trong biểu đồ
+0
+1
+1
+Câu 91. Những nguyên lý thiết kế giao diện cho phép người dùng ít phải nhớ 
+Xác định những shortcut trực quan
+0
+0
+Biể u lộ thông tin theo cách diễn tiến
+0
+0
+Thiế t lập những trường hợp m ặc định có ý nghĩa
+0
+0
+Tất cả những mục trên
+0
+1
+1
+Câu 92. Những nguyên lý thiết kế giao diện nào không cho phép người dùng còn điều khiển tương tác với máy tính
+Cho phép được gián đoạn
+0
+0
+Cho phép tương tác có thể undo
+0
+0
+Che dấu những bản ch ất k ỹ thuật với những người dùng thường
+0
+0
+Chỉ cung cấp một cách thức xác định cứng khi hoàn thành tác vụ
+0
+1
+1
+Câu 93. Những thành phần kiến trúc trong kỹ thuật sản phẩm là 
+Dữ liệu, phần cứng, ph ần m ềm, con người
+0
+1
+Dữ liệu, tài liệu, phần cứng, phần mềm
+0
+0
+Dữ liệu, phần cứng, phần mềm, thủ tục
+0
+0
+Tài liệu, phần cứng, con người, thủ tục
+0
+0
+1
+Câu 94. Những yêu cầu nào được quan tâm suốt QFD (quality function deployment)
+exciting requirements
+0
+0
+expected requirement
+0
+0
+normal requirements
+0
+0
+technology requirements
+0
+1
+1
+Câu 95. Những vấn đề thiết kế chung nổi trội lên trong hầu hết giao diện người dùng
+Kết nối tiền sử người dùng (profile) và shortcut chức năng
+0
+0
+Xử lý lỗi và thời gian đáp ứng của hệ thống
+0
+1
+Quyết định hiển thị hình ảnh và thiết kế icon
+0
+0
+Không có mục nào
+0
+0
+1
+Câu 96. Nội dung thông tin biểu diễn những đối tượng điều khiển và dữ liệu riêng biệt mà bao gồm những thông tin mà
+a.	Cần thiết để trình bày tất cả output
+0
+0
+b.	Được đòi hỏi cho việc xử lý lỗi
+0
+0
+c.	Được đòi hỏi cho hoạt động tạo giao diện hệ thống
+0
+0
+d.	Được biến đổi b ởi phần mềm
+0
+1
+1
+Câu 97. Phân tích giá trị được dẫn ra như là một phần của QFD (quality function deployment) nhằm xác định
+a.	Chi phí củ a hoạt động đảm bảo ch ất lượng của d ự án
+0
+0
+b.	Chi phí quan hệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+0
+0
+c.	Độ ưu tiên quan h ệ của những yêu cầu qua việc triển khai chức năng, tác vụ và thông tin
+0
+1
+d.	Kích thước của bản ý kiến khách hàng
+0
+0
+1
+Câu 98. Phân tích văn ph ạm của bản tường thuật xử lý là bước đầu tiên tốt nhất để t ạo ra
+a.	Tự điển dữ liệu
+0
+0
+b.	Biểu đồ dòng dữ liệ u
+0
+1
+c.	Biể u đồ quan hệ thực thể
+0
+0
+d.	Biể u đồ dị ch chuyển trạng thái
+0
+0
+1
+Câu 99. Sơ đồ luồng dữ liệu
+a.	Đư a ra hình ảnh quan hệ giữa các đối tượng d ữ liệu
+0
+0
+b. Đưa ra hình ảnh những chức năng bi ến đổi luồng dữ liệu 
+0
+1
+c. Chỉ ra những quyết định logic chính khi chúng xuất hiện
+0
+0
+d. Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+0
+0
+1
+Câu 100. Sử dụ ng bảng lần vết giúp
+a.	Debug chương trình dựa theo việc phát hiện lỗi thời gian thực
+0
+0
+b.	Xác định việc biểu diễn những sự thi hành giải thuật
+0
+0
+c.	Xác định, điều khiển và theo vết những thay đổi yêu cầu
+0
+1
+d.	Không có mục nào
+0
+0
+1
+Câu 101.Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn
+a.	Accuracy
+0
+0
+b.	Complexity
+0
+0
+c.	Efficiency
+0
+0
+d.	Quality
+0
+1
+1
+Câu 102.Sự toàn vẹn (consistency) giao diện ngầm định
+a.	Nhữ ng kỹ thuật input giữ t ương t ự suốt ứng d ụng
+0
+0
+b.	Mỗ i ứng dụng phải có look and feel riêng biệt
+0
+0
+c.	Cách thức điều hướng (navigational) nhạy với ngữ c ảnh
+0
+0
+d.	Câu a và b
+0
+1
+1
+Câu 103.Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm
+a.	Đị nh giá và tổng hợp
+0
+0
+b.	Mô hình hóa và thừa nhận vấn đề
+0
+0
+c.	Lậ p kế hoạch và lịch biểu
+0
+1
+d.	Đặc tả và xem xét
+0
+0
+1
+Câu 104.Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?
+a.	Kế hoạch kiểm thử
+0
+0
+b.	Mã lệnh
+0
+0
+c.	Thi ết kế chi tiết
+0
+1
+d.	Lập kế hoạch
+0
+0
+1
+Câu 105.Tạo nguyên mẫu tiến hóa thường thích được dùng hơn tạo nguyên mẫu bỏ đi bởi vì
+a.	Cho phép tái s ử dụng nguyên mẫu đầu
+0
+1
+b.	Không đòi hỏi làm việc nhiều với khách hàng
+0
+0
+c.	Dễ dành thực hiện nhanh
+0
+0
+d.	Nhiề u tin cậ y hơn
+0
+0
+1
+Câu 106.Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ s ư phần mềm
+a.	Phân tích phạm vi nghiệp vụ
+0
+0
+b.	Thiết kế hệ thống nghiệp vụ
+0
+1
+c.	Kế hoạch sản phẩm
+0
+0
+d.	Kế hoạch chiến lược thông tin
+0
+0
+1
+Câu 107.Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (contraint)
+a.	Theo một cách thức đầy đủ
+0
+0
+b.	Tất cả đều đúng
+0
+1
+c.	Nỗ lực và thời gian là tối thiểu
+0
+0
+d.	Nhằm khám phá lỗi
+0
+0
+1
+Câu 108. Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với
+Phân tích toàn bộ hệ thống
+0
+0
+b.	Thiế t kế
+0
+0
+c.	Phân tích yêu cầu
+0
+1
+d.	Mã hóa
+0
+0
+1
+Câu 109.Thủ tụ c phần mềm tập trung vào
+a.	Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn
+0
+0
+b.	Xử lý chi tiết của mỗi module riêng biệt
+0
+1
+c.	Xử lý chi tiết của mỗi tập module
+0
+0
+d.	Quan hệ giữa điều khiển và thủ t ục
+0
+0
+1
+Câu 110.Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào
+a.	Tính truy cập và tính tin cậy của hệ thống
+0
+0
+b.	Dữ liệu và điều khiển của hệ thống
+0
+1
+c.	Tính chức năng của hệ thống
+0
+0
+d.	Những chi tiết thực thi của hệ thống
+0
+0
+1
+Câu 111.Tiêu chuẩn ISO để hướng dẫn thực hiện cho lĩnh vực phần mềm là
+a.	ISO 9001
+0
+0
+b.	Tất cả đều sai
+0
+0
+c.	ISO 15288
+0
+0
+d.	ISO 9000-3
+0
+1
+1
+Câu 112. Trong biểu diễn lịch biểu dự án Critical path là đường
+a. Là một đường duy nhất
+0
+0
+b.	Có thời gian ngắn nhất
+0
+0
+c.	Có thời gian dài nhất
+0
+1
+d.	Tất cả đều đúng phụ thuộc vào dự án
+0
+0
+1
+Câu 113.Trong độ đo hiệu quả khử lỗi DRE, số lỗi tiềm tàng là
+a.	Tất cả đều sai
+0
+0
+b.	Số lỗi do khách hàng phát hiện
+0
+0
+c.	Toàn bộ lỗ i đượ c phát hiện sau đó
+0
+1
+d.	Toàn bộ lỗi chưa phát hiện
+0
+0
+1
+Câu 114. Trong k ỹ thuật tiến trình nghiệp vụ, ba kiến trúc khác nhau được kiểm tra
+a. Hạ tầng kỹ thuật, dữ liệu, ứng dụng
+0
+1
+b.	Hạ tầng tài chánh, tổ chức và truyền thông
+0
+0
+c.	Cấu trúc báo cáo, cơ sở dữ liệu, mạng
+0
+0
+d.	Cấu trúc dữ liệu, yêu cầu, hệ thống
+0
+0
+1
+Câu 115.Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành
+a.	5 mức độ
+0
+1
+b.	4 mức độ
+0
+0
+c.	6 mức độ
+0
+0
+d.	3 mức độ
+0
+0
+1
+Câu 116.Trong mô hình phân tích thành phần dựa vào kịch bản (Scenario based element) được dùng cho
+a.	Thiết kế kiến trúc
+0
+0
+b.	Thiết kế thành phần
+0
+0
+c.	Thiết kế giao diện
+0
+1
+d.	Thiết dữ liệu/class
+0
+0
+1
+Câu 117.Trong một dự án thành công sử dụng chiến lược
+a.	Đưa ra nh ững xem xét kỹ thuật hình thức ưu tiên trước khi kiểm thử
+0
+0
+b.	Chỉ rõ những yêu cầu trong theo một cách thức có thể định lượng
+0
+0
+c.	Quan tâm tới việc sử dụng những nhóm kiểm thử độc lập
+0
+0
+d.	Tất cả mục trên
+0
+1
+1
+Câu 118.Trong ngữ cảnh của phân tích yêu cầu, hai loại phân tách vấn đề là
+a.	bottom-up và top-down
+0
+0
+b.	horizontal and vertical
+0
+1
+c.	subordinate và superordinate
+0
+0
+d.	Không có mục nào
+0
+0
+1
+Câu 119. Trong nhận diện rủi ro, việc không đáp ứng về lịch biểu thuộc loại rủi ro
+a. Về con người
+0
+0
+b.	Về ướ c lượng
+0
+1
+c.	Về yêu cầu
+0
+0
+d.	Về t ổ chức
+0
+0
+1
+120. Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc thường dùng khung nhìn
+a. Dòng dữ liệu
+0
+0
+b.	Module
+0
+0
+c.	Tiế n trình
+0
+0
+d.	Tất cả các mục trên
+0
+1
+1
+Câu 121. Trong tích h ợp module, gom cụm (cluster) được dùng trong
+a. Tích hợp từ dưới lên
+0
+1
+b.	Tích hợp big-bang
+0
+0
+c.	Tích hợp từ trên xuống
+0
+0
+d.	Tích hợp tăng vòng
+0
+0
+1
+Câu 122.Từ điển dữ liệu chứa những mô tả c ủa mỗi
+a.	Mụ c cấu hình phần mềm
+0
+0
+b.	Đố i tượ ng dữ liệu phần mềm
+0
+1
+c.	Biể u đồ phần mềm
+0
+0
+d.	Hệ thống ký hiệu phần mềm
+0
+0
+1
+Câu 123.Use-cases là một kịch bản mà mô tả
+a.	Phần mề m thực hiện nh ư th ế nào khi được dùng trong một tình huống cho trước
+0
+1
+b.	Nhữ ng công cụ CASE sẽ được dùng như thế nào để xây dựng hệ thống
+0
+0
+c.	Kế hoạch xây dựng cho sản phẩm phần mềm
+0
+0
+d.	Những test-case cho sản phẩm phần mềm
+0
+0
+1
+Câu 124.Vấn đề nào sau đây liên quan chính đến pha thiết kế?
+a.	Khả thi
+0
+0
+b.	Dữ liệu
+0
+1
+c.	Tất cả các mục
+0
+0
+d.	Phạm vi dự án
+0
+0
+1
+Câu 125. Xét đường độc lập cơ bản, nếu có 7 node phân nhánh thì ta có số đường thực thi cơ bản độc lập là
+a.	8
+0
+1
+b.	7
+0
+0
+c.	9
+0
+0
+d.	6
+0
+0

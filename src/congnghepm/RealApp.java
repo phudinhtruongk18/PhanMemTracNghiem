@@ -64,7 +64,7 @@ public class RealApp extends JFrame implements ActionListener {
 
     }
 
-    int check;
+    int check,checkRW=0;
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -120,19 +120,25 @@ public class RealApp extends JFrame implements ActionListener {
     }
     public void laplaiEvent(JButton nut,int index) {
         if (listDA.get(index).getTypee() == true) {
-            if (sttCauHoi==socauhoi-1){
-                dispose();
-                new start();
-            }
-            amThanh("hi.wav");
             sttCauHoi++;
+            amThanh("hi.wav");
+
+            System.out.println("stt:"+sttCauHoi);
             tiendo.setValue(sttCauHoi);
             maxtext.setText(listQUES.get(sttCauHoi).getQue());
             listDA = listQUES.get(sttCauHoi).getTraloi();
             laplaicaiTEXT();                            //sep lap
             laplaisetCOLOR();
+            if (checkRW==0) System.out.println("Back phat bach trung"+checkRW);
+            checkRW=0;
+            if (sttCauHoi==socauhoi-1){
+                dispose();
+                System.out.println("bAN BAN THI XONG");
+            }
         } else {
             nut.setBackground(Color.RED);
+            checkRW++;
+            if (checkRW!=0) System.out.println("sai lan thu "+checkRW);
         }
     }
 
@@ -159,7 +165,6 @@ public class RealApp extends JFrame implements ActionListener {
             e.printStackTrace();
         } catch(
                 LineUnavailableException e)
-
         {
             e.printStackTrace();
         }
