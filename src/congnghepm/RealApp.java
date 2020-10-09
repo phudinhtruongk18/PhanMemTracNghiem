@@ -56,6 +56,7 @@ public class RealApp extends JFrame implements ActionListener {
         laplaicaiTEXT();                            //sep lap
         maxtext.setText(listQUES.get(0).getQue());  //se thay doi
         amThanh("helltaker.wav");
+        amThanh("welcome.wav");
 
     }
 
