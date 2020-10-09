@@ -4,12 +4,14 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class start extends JFrame implements ActionListener{
     public JTextField nameTester;
     public start() {
         JLabel maxtext= new JLabel();
         maxtext.setText("Xin moi ban nhap ten (Enter de bat dau thi)");
         maxtext.setBounds(70, 60, 400, 30);
+
 
         nameTester =new JTextField();
         nameTester.setBounds(93, 110, 200, 30);

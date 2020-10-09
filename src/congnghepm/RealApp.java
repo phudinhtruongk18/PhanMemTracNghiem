@@ -1,9 +1,12 @@
 package congnghepm;
 
+import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +22,6 @@ public class RealApp extends JFrame implements ActionListener {
     private JButton button4;
     private JButton button3;
     private JLabel maxtext;
-
     int socauhoi=docFileByBufferChar();
     public RealApp(String nameTesterr) {
         System.out.println(socauhoi);
@@ -53,6 +55,7 @@ public class RealApp extends JFrame implements ActionListener {
 //set vitri cau cau tra loi
         laplaicaiTEXT();                            //sep lap
         maxtext.setText(listQUES.get(0).getQue());  //se thay doi
+        amThanh("helltaker.wav");
 
     }
 
@@ -121,6 +124,7 @@ public class RealApp extends JFrame implements ActionListener {
                 dispose();
                 new start();
             }
+            amThanh("hi.wav");
             sttCauHoi++;
             tiendo.setValue(sttCauHoi);
             maxtext.setText(listQUES.get(sttCauHoi).getQue());
@@ -129,6 +133,35 @@ public class RealApp extends JFrame implements ActionListener {
             laplaisetCOLOR();
         } else {
             nut.setBackground(Color.RED);
+        }
+    }
+
+    public void amThanh(String music) {
+        try
+        {
+            // Open an audio input stream.
+            URL url = getClass().getClassLoader().getResource(music);
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            // Get a sound clip resource.
+            Clip clip = AudioSystem.getClip();
+            // Open audio clip and load samples from the audio input stream.
+            clip.open(audioIn);
+            clip.start();
+        } catch(
+                UnsupportedAudioFileException e)
+
+        {
+            e.printStackTrace();
+        } catch(
+                IOException e)
+
+        {
+            e.printStackTrace();
+        } catch(
+                LineUnavailableException e)
+
+        {
+            e.printStackTrace();
         }
     }
 }

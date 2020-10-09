@@ -1399,8 +1399,8 @@ c.	Xác định, điều khiển và theo vết những thay đổi yêu cầu
 d.	Không có mục nào
 0
 0
-1	
-Câu 101.	Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn
+1
+Câu 101.Sự quan trọng của thiết kế phần mềm có thể được tóm tắt bằng từ đơn
 a.	Accuracy
 0
 0
@@ -1414,7 +1414,7 @@ d.	Quality
 0
 1
 1
-Câu 102.	Sự toàn vẹn (consistency) giao diện ngầm định
+Câu 102.Sự toàn vẹn (consistency) giao diện ngầm định
 a.	Nhữ ng kỹ thuật input giữ t ương t ự suốt ứng d ụng
 0
 0
@@ -1428,7 +1428,7 @@ d.	Câu a và b
 0
 1
 1
-Câu 103.	Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm
+Câu 103.Tác vụ nào không được biểu diễn như là một phần của phân tích yêu cầu phần mềm
 a.	Đị nh giá và tổng hợp
 0
 0
@@ -1442,7 +1442,7 @@ d.	Đặc tả và xem xét
 0
 0
 1
-Câu 104.	Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?
+Câu 104.Tài liệu nào sau đây sẽ được tạo ra trong pha thiết kế hệ thống?
 a.	Kế hoạch kiểm thử
 0
 0
@@ -1456,7 +1456,7 @@ d.	Lập kế hoạch
 0
 0
 1
-Câu 105.	Tạo nguyên mẫu tiến hóa thường thích được dùng hơn tạo nguyên mẫu bỏ đi bởi vì
+Câu 105.Tạo nguyên mẫu tiến hóa thường thích được dùng hơn tạo nguyên mẫu bỏ đi bởi vì
 a.	Cho phép tái s ử dụng nguyên mẫu đầu
 0
 1
@@ -1470,7 +1470,7 @@ d.	Nhiề u tin cậ y hơn
 0
 0
 1
-Câu 106.	Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ s ư phần mềm
+Câu 106.Thành phần nào của kỹ thuật tiến trình nghiệp vụ là trách nhiệm của kỹ s ư phần mềm
 a.	Phân tích phạm vi nghiệp vụ
 0
 0
@@ -1484,7 +1484,7 @@ d.	Kế hoạch chiến lược thông tin
 0
 0
 1
-Câu 107.		Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (contraint)
+Câu 107.Theo Boris Beizer, thiết kế Testcase cần theo ràng buộc (contraint)
 a.	Theo một cách thức đầy đủ
 0
 0
@@ -1498,7 +1498,7 @@ d.	Nhằm khám phá lỗi
 0
 0
 1
-Câu 108. Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với 
+Câu 108. Theo chiến thuật kiểm nghiệm phổ biến, kiểm nghiệm tính năng tương quan với
 Phân tích toàn bộ hệ thống
 0
 0
@@ -1512,7 +1512,7 @@ d.	Mã hóa
 0
 0
 1
-Câu 109.	Thủ tụ c phần mềm tập trung vào
+Câu 109.Thủ tụ c phần mềm tập trung vào
 a.	Cấp bậc điều khiển trong một cảm nhận trừu tượng hơn
 0
 0
@@ -1526,7 +1526,7 @@ d.	Quan hệ giữa điều khiển và thủ t ục
 0
 0
 1
-Câu 110.	Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào
+Câu 110.Tiêu chuẩn đánh giá chất lượng của một thiết kế kiến trúc phải dựa vào
 a.	Tính truy cập và tính tin cậy của hệ thống
 0
 0
@@ -1540,7 +1540,7 @@ d.	Những chi tiết thực thi của hệ thống
 0
 0
 1
-Câu 111.	Tiêu chuẩn ISO để hướng dẫn thực hiện cho lĩnh vực phần mềm là
+Câu 111.Tiêu chuẩn ISO để hướng dẫn thực hiện cho lĩnh vực phần mềm là
 a.	ISO 9001
 0
 0
@@ -1554,7 +1554,7 @@ d.	ISO 9000-3
 0
 1
 1
-Câu 112. Trong biểu diễn lịch biểu dự án Critical path là đường 
+Câu 112. Trong biểu diễn lịch biểu dự án Critical path là đường
 a. Là một đường duy nhất
 0
 0
@@ -1568,7 +1568,7 @@ d.	Tất cả đều đúng phụ thuộc vào dự án
 0
 0
 1
-Câu 113.	Trong độ đo hiệu quả khử lỗi DRE, số lỗi tiềm tàng là
+Câu 113.Trong độ đo hiệu quả khử lỗi DRE, số lỗi tiềm tàng là
 a.	Tất cả đều sai
 0
 0
@@ -1582,7 +1582,7 @@ d.	Toàn bộ lỗi chưa phát hiện
 0
 0
 1
-Câu 114. Trong k ỹ thuật tiến trình nghiệp vụ, ba kiến trúc khác nhau được kiểm tra 
+Câu 114. Trong k ỹ thuật tiến trình nghiệp vụ, ba kiến trúc khác nhau được kiểm tra
 a. Hạ tầng kỹ thuật, dữ liệu, ứng dụng
 0
 1
@@ -1596,7 +1596,7 @@ d.	Cấu trúc dữ liệu, yêu cầu, hệ thống
 0
 0
 1
-Câu 115.	Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành
+Câu 115.Trong mô hình CMM (Software Capability Maturity Model) có mấy mức độ trưởng thành
 a.	5 mức độ
 0
 1
@@ -1609,22 +1609,22 @@ c.	6 mức độ
 d.	3 mức độ
 0
 0
-1 
+1
 Câu 116.Trong mô hình phân tích thành phần dựa vào kịch bản (Scenario based element) được dùng cho
 a.	Thiết kế kiến trúc
 0
 0
-b.	Thiết kế thành phần 
+b.	Thiết kế thành phần
 0
 0
-c.	Thiết kế giao diện 
+c.	Thiết kế giao diện
 0
 1
 d.	Thiết dữ liệu/class
 0
 0
 1
-Câu 117.	Trong một dự án thành công sử dụng chiến lược
+Câu 117.Trong một dự án thành công sử dụng chiến lược
 a.	Đưa ra nh ững xem xét kỹ thuật hình thức ưu tiên trước khi kiểm thử
 0
 0
@@ -1638,7 +1638,7 @@ d.	Tất cả mục trên
 0
 1
 1
-Câu 118.	Trong ngữ cảnh của phân tích yêu cầu, hai loại phân tách vấn đề là
+Câu 118.Trong ngữ cảnh của phân tích yêu cầu, hai loại phân tách vấn đề là
 a.	bottom-up và top-down
 0
 0
@@ -1652,7 +1652,7 @@ d.	Không có mục nào
 0
 0
 1
-Câu 119. Trong nhận diện rủi ro, việc không đáp ứng về lịch biểu thuộc loại rủi ro 
+Câu 119. Trong nhận diện rủi ro, việc không đáp ứng về lịch biểu thuộc loại rủi ro
 a. Về con người
 0
 0
@@ -1666,7 +1666,7 @@ d.	Về t ổ chức
 0
 0
 1
-120. Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc thường dùng khung nhìn 
+120. Trong phương pháp phân tích kiến trúc, mô tả mẫu kiến trúc thường dùng khung nhìn
 a. Dòng dữ liệu
 0
 0
@@ -1680,7 +1680,7 @@ d.	Tất cả các mục trên
 0
 1
 1
-Câu 121. Trong tích h ợp module, gom cụm (cluster) được dùng trong 
+Câu 121. Trong tích h ợp module, gom cụm (cluster) được dùng trong
 a. Tích hợp từ dưới lên
 0
 1
@@ -1694,7 +1694,7 @@ d.	Tích hợp tăng vòng
 0
 0
 1
-Câu 122.	Từ điển dữ liệu chứa những mô tả c ủa mỗi
+Câu 122.Từ điển dữ liệu chứa những mô tả c ủa mỗi
 a.	Mụ c cấu hình phần mềm
 0
 0
@@ -1708,7 +1708,7 @@ d.	Hệ thống ký hiệu phần mềm
 0
 0
 1
-Câu 123.	Use-cases là một kịch bản mà mô tả
+Câu 123.Use-cases là một kịch bản mà mô tả
 a.	Phần mề m thực hiện nh ư th ế nào khi được dùng trong một tình huống cho trước
 0
 1
@@ -1722,7 +1722,7 @@ d.	Những test-case cho sản phẩm phần mềm
 0
 0
 1
-Câu 124.	Vấn đề nào sau đây liên quan chính đến pha thiết kế?
+Câu 124.Vấn đề nào sau đây liên quan chính đến pha thiết kế?
 a.	Khả thi
 0
 0

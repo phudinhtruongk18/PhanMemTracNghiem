@@ -1,6 +1,8 @@
 package congnghepm;
 
+import javax.sound.sampled.*;
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,7 +53,7 @@ public class Question {
     }
 
     public static int docFileByBufferChar() {
-     int num=0;
+        int num = 0;
         try {
             File f = new File("CongNghePM2.txt");
             FileReader read = new FileReader(f);
@@ -89,9 +91,8 @@ public class Question {
 //            }
             b.close();
         } catch (Exception ex) {/*...*/}
-    return num;
+        return num;
     }
-
 //    public static void ghiketqua() {
 //        File f = new File("CongNghePM.txt");
 //        FileWriter fw = null;
