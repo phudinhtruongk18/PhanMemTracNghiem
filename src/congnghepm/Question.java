@@ -37,7 +37,7 @@ public class Question {
         int num = 0;
         try {
 //            File f = new File("CongNghePM2.txt");
-            File f = new File("test10cau.txt");
+            File f = new File("CongNghePM.txt");
             FileReader read = new FileReader(f);
             BufferedReader b = new BufferedReader(read);
             String d;

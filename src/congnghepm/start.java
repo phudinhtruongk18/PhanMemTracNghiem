@@ -11,8 +11,6 @@ public class start extends JFrame implements ActionListener{
         JLabel maxtext= new JLabel();
         maxtext.setText("Xin moi ban nhap ten (Enter de bat dau thi)");
         maxtext.setBounds(70, 60, 400, 30);
-
-
         nameTester =new JTextField();
         nameTester.setBounds(93, 110, 200, 30);
         nameTester.addActionListener(this::maxsachActionPerformed);

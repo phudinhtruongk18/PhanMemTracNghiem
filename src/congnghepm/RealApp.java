@@ -23,6 +23,7 @@ public class RealApp extends JFrame implements ActionListener {
     private JButton button3;
     private JLabel maxtext;
     int socauhoi=docFileByBufferChar();
+    long batDauThi = System.currentTimeMillis();
     public RealApp(String nameTesterr) {
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
@@ -57,7 +58,7 @@ public class RealApp extends JFrame implements ActionListener {
         maxtext.setText(listQUES.get(0).getQue());  //se thay doi
         amThanh("helltaker.wav");
         amThanh("welcome.wav");
-
+        batDauThi = System.currentTimeMillis();
     }
 
     public static void main(String[] args) {
@@ -120,27 +121,34 @@ public class RealApp extends JFrame implements ActionListener {
         button4.setBackground(Color.white);
     }
     public void laplaiEvent(JButton nut,int index) {
-        if (listDA.get(index).getTypee() == true) {
+        if (listDA.get(index).getTypee()) {
             sttCauHoi++;
             amThanh("hi.wav");
 
-            System.out.println("stt:"+sttCauHoi);
-            tiendo.setValue(sttCauHoi);
-            maxtext.setText(listQUES.get(sttCauHoi).getQue());
-            listDA = listQUES.get(sttCauHoi).getTraloi();
-            laplaicaiTEXT();                            //sep lap
-            laplaisetCOLOR();
-            if (checkRW==0) System.out.println("Back phat bach trung"+checkRW);
-            checkRW=0;
-            if (sttCauHoi==socauhoi-1){
-                dispose();
+            if (sttCauHoi==socauhoi){
                 System.out.println("bAN BAN THI XONG");
+                setEnabled(false);
+                long ketThucThi = System.currentTimeMillis();
+                float totalTime = (ketThucThi-batDauThi)/1000F;
+                System.out.println("Tong thoi gian thi :"+totalTime);
+                dispose();
+            }
+            else {
+                System.out.println("stt:" + sttCauHoi);
+                tiendo.setValue(sttCauHoi);
+                maxtext.setText(listQUES.get(sttCauHoi).getQue());
+                listDA = listQUES.get(sttCauHoi).getTraloi();
+                laplaicaiTEXT();                            //sep lap
+                laplaisetCOLOR();
+                if (checkRW == 0) System.out.println("Back phat bach trung" + checkRW);
+                checkRW = 0;
             }
         } else {
             nut.setBackground(Color.RED);
             checkRW++;
             if (checkRW!=0) System.out.println("sai lan thu "+checkRW);
         }
+
     }
 
     public void amThanh(String music) {

@@ -1,26 +1,26 @@
-4
+5
 1
 Ai là người không thích hợp để tham dự vào nhóm FAST (facilitated application specification techniques)
-Kỹ s ư ph ần cứng và phần mềm
-0.5
-1
+Kỹ sư phần cứng và phần mềm
+0
+0
 Đại diệ n nhà sản xuất
-1.5
+0
 0
 Đại diệ n thị trường
-2.5
+0
 0
 Nhân viên tài chánh cao cấp
 0
-0
+1
 1
 Ba giai đoạn tổng quát của công nghệ phần mềm 
 definition, development, support
 0
-0
+1
 what, how, where
 0
-1
+0
 programming, debugging, maintenance
 0
 0
@@ -37,15 +37,15 @@ Biể u đồ dị ch chuyển trạng thái
 0
 Chỉ ra hình ảnh dữ li ệu được bi ến đ ổi nh ư thế nào bởi hệ thống
 0
-1
+0
 Chỉ ra những tương tác của hệ thống đối với sự ki ện bên ngoài
 0
-0
+1
 1
 Biể u đồ dòng điều khiển
 Cần thiế t để mô hình những hệ thống hướng sự kiện
 0
-0
+1
 Được đòi hỏi cho tất cả h ệ thống
 0
 0
@@ -54,4 +54,18 @@ Cần thiế t để mô hình những hệ thống hướng sự kiện
 0
 Hữ u dụng trong mô hình hóa giao diện người dùng
 0
+0
 1
+Biể u đồ quan hệ thực thể
+Đưa ra hình ảnh quan hệ giữa các đối tượng dữ li ệu
+0
+1
+Đư a ra hình ảnh những chức năng biến đổi luồng d ữ liệu
+0
+0
+Chỉ ra những quyết định logic chính khi chúng xuất hiện
+0
+0
+Chỉ ra sự tương tác của hệ thống với sự kiện bên ngoài
+0
+0
