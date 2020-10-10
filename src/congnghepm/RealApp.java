@@ -24,6 +24,7 @@ public class RealApp extends JFrame implements ActionListener {
     private JLabel maxtext;
     int socauhoi=docFileByBufferChar();
     long batDauThi = System.currentTimeMillis();
+    Clip clip1;
     public RealApp(String nameTesterr) {
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
@@ -56,7 +57,27 @@ public class RealApp extends JFrame implements ActionListener {
 //set vitri cau cau tra loi
         laplaicaiTEXT();                            //sep lap
         maxtext.setText(listQUES.get(0).getQue());  //se thay doi
-        amThanh("helltaker.wav");
+        try
+        {
+        URL url = getClass().getClassLoader().getResource("helltaker.wav");
+        AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+        clip1 = AudioSystem.getClip();
+        clip1.open(audioIn);
+        clip1.start();
+        } catch(
+                UnsupportedAudioFileException e)
+        {
+            e.printStackTrace();
+        } catch(
+                IOException e)
+
+        {
+            e.printStackTrace();
+        } catch(
+                LineUnavailableException e)
+        {
+            e.printStackTrace();
+        }
         amThanh("welcome.wav");
         batDauThi = System.currentTimeMillis();
     }
@@ -132,6 +153,8 @@ public class RealApp extends JFrame implements ActionListener {
                 float totalTime = (ketThucThi-batDauThi)/1000F;
                 System.out.println("Tong thoi gian thi :"+totalTime);
                 dispose();
+                clip1.stop();
+                new ketthuc();
             }
             else {
                 System.out.println("stt:" + sttCauHoi);
@@ -154,17 +177,14 @@ public class RealApp extends JFrame implements ActionListener {
     public void amThanh(String music) {
         try
         {
-            // Open an audio input stream.
             URL url = getClass().getClassLoader().getResource(music);
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-            // Get a sound clip resource.
             Clip clip = AudioSystem.getClip();
-            // Open audio clip and load samples from the audio input stream.
             clip.open(audioIn);
             clip.start();
+
         } catch(
                 UnsupportedAudioFileException e)
-
         {
             e.printStackTrace();
         } catch(
@@ -178,4 +198,6 @@ public class RealApp extends JFrame implements ActionListener {
             e.printStackTrace();
         }
     }
+
+
 }
