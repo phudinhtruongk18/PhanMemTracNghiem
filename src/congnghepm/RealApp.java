@@ -23,9 +23,12 @@ public class RealApp extends JFrame implements ActionListener {
     private JButton button3;
     private JLabel maxtext;
     int socauhoi=docFileByBufferChar();
-    long batDauThi = System.currentTimeMillis();
+    long batDauThi;
     Clip clip1;
+    String name;
+    int check,checkRW=0,checkWrong=0;
     public RealApp(String nameTesterr) {
+        name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
         listDA = listQUES.get(0).getTraloi();                         //se thay doi
@@ -87,8 +90,6 @@ public class RealApp extends JFrame implements ActionListener {
 
     }
 
-    int check,checkRW=0;
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button1)
@@ -115,19 +116,16 @@ public class RealApp extends JFrame implements ActionListener {
         }
 
     }
-
     public void laplaicai(JButton yeah, int y) {
         yeah.setBounds(10, y, 375, 50);
         add(yeah);
         yeah.addActionListener(this);
     }
-
     public void laplaicai2(JButton yeah, int y) {
         yeah.setBounds(400, y, 375, 50);
         add(yeah);
         yeah.addActionListener(this);
     }
-
     public void laplaicaiTEXT() {                   //se lap lai
         button1.setText(listDA.get(0).getAn1());
         button2.setText(listDA.get(1).getAn1());
@@ -151,10 +149,9 @@ public class RealApp extends JFrame implements ActionListener {
                 setEnabled(false);
                 long ketThucThi = System.currentTimeMillis();
                 float totalTime = (ketThucThi-batDauThi)/1000F;
-                System.out.println("Tong thoi gian thi :"+totalTime);
                 dispose();
                 clip1.stop();
-                new ketthuc();
+                new ketthuc(socauhoi,name,totalTime,checkWrong);
             }
             else {
                 System.out.println("stt:" + sttCauHoi);
@@ -169,11 +166,11 @@ public class RealApp extends JFrame implements ActionListener {
         } else {
             nut.setBackground(Color.RED);
             checkRW++;
+            checkWrong++;
             if (checkRW!=0) System.out.println("sai lan thu "+checkRW);
         }
 
     }
-
     public void amThanh(String music) {
         try
         {
@@ -198,6 +195,4 @@ public class RealApp extends JFrame implements ActionListener {
             e.printStackTrace();
         }
     }
-
-
 }
