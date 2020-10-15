@@ -72,7 +72,7 @@ public class ketthuc extends JFrame implements ActionListener{
         else if (e.getSource() == nutThiLai)
             check = 2;
         switch (check) {
-            case 1 -> { //inKetQua();
+            case 1 -> { new showKetQua();
             }
             case 2 -> {
                 dispose();
