@@ -18,27 +18,35 @@ public class showKetQua extends JFrame implements ActionListener {
     private final JButton next;
     private final JButton pre;
     private JLabel tieuDe = new JLabel();
-    private JLabel cauHoi= new JLabel();
-    private JLabel dapanA= new JLabel();
-    private JLabel dapanB= new JLabel();
-    private JLabel dapanC= new JLabel();
-    private JLabel dapanD= new JLabel();
-    private JLabel cauHoi1= new JLabel();
-    private JLabel dapanA1= new JLabel();
-    private JLabel dapanB1= new JLabel();
-    private JLabel dapanC1= new JLabel();
-    private JLabel dapanD1= new JLabel();
-
+    private JLabel cauHoi = new JLabel();
+    private JLabel dapanA = new JLabel();
+    private JLabel dapanB = new JLabel();
+    private JLabel dapanC = new JLabel();
+    private JLabel dapanD = new JLabel();
+    private JLabel cauHoi1 = new JLabel();
+    private JLabel dapanA1 = new JLabel();
+    private JLabel dapanB1 = new JLabel();
+    private JLabel dapanC1 = new JLabel();
+    private JLabel dapanD1 = new JLabel();
+    private JLabel cauHoi2 = new JLabel();
+    private JLabel dapanA2 = new JLabel();
+    private JLabel dapanB2 = new JLabel();
+    private JLabel dapanC2 = new JLabel();
+    private JLabel dapanD2 = new JLabel();
+    private JLabel cauHoi3 = new JLabel();
+    private JLabel dapanA3 = new JLabel();
+    private JLabel dapanB3 = new JLabel();
+    private JLabel dapanC3 = new JLabel();
+    private JLabel dapanD3 = new JLabel();
     private static final List<Question> listCauHoi1 = new ArrayList<>();
     private static List<Anwser> listDA1 = new ArrayList<>();
-
+    int sttCauHoi = docFileByBufferChar();
     Clip clip1;
 
     public showKetQua() {
         Icon iconOk = new ImageIcon("anh\\okeynha.png");
         Icon iconNe = new ImageIcon("anh\\nex.png");
         Icon iconPr = new ImageIcon("anh\\pre.png");
-        int sttCauHoi = docFileByBufferChar();
 
         tieuDe.setText("Đáp án của " + sttCauHoi + " câu hỏi");
         tieuDe.setFont(new Font("Verdana", Font.PLAIN, 18));
@@ -78,43 +86,95 @@ public class showKetQua extends JFrame implements ActionListener {
         new showKetQua();
     }
 
-    public void themcauhois(int sttCauHoi) {
-    themcauhoi(cauHoi,sttCauHoi,80);
-//    themcauhoi(sttCauHoi+1,80+120);
-//    themcauhoi(sttCauHoi+2,80+240);
-//    themcauhoi(sttCauHoi+3,80+360);
-}
-    public void themcauhoi(JLabel tempLabel,int temp,int x) {
-        addLabel(tempLabel,"Câu "+(temp+1)+": "+listCauHoi1.get(temp).getQue(),60,x-20);
-        listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
-        addLabel(dapanA,listDA1.get(0).getAn1(),80,x);
-        if(listDA1.get(0).getTypee() == true) dapanA.setText("--> "+listDA1.get(0).getAn1());
-        addLabel(dapanB,listDA1.get(1).getAn1(),80,x+20);
-        if(listDA1.get(1).getTypee() == true) dapanB.setText("--> "+listDA1.get(1).getAn1());
-        addLabel(dapanC,listDA1.get(2).getAn1(),80,x+40);
-        if(listDA1.get(2).getTypee() == true) dapanC.setText("--> "+listDA1.get(2).getAn1());
-        addLabel(dapanD,listDA1.get(3).getAn1(),80,x+60);
-        if(listDA1.get(3).getTypee() == true) dapanD.setText("--> "+listDA1.get(3).getAn1());
+    public void themcauhois(int tempsttCauHoi) {
+        while (tempsttCauHoi >= 0) {
+            if (sttCauHoi <= tempsttCauHoi) addLabel(cauHoi, "HẾT CÂU HỎI ", 60, 60);
+            else themcauhoi(cauHoi, tempsttCauHoi, 80);
+            if (sttCauHoi <= tempsttCauHoi + 1) addLabel(cauHoi1, "HẾT CÂU HỎI ", 60, 80 + 100);
+            else themcauhoi1(cauHoi1, tempsttCauHoi + 1, 80 + 120);
+            if (sttCauHoi <= tempsttCauHoi + 2) addLabel(cauHoi2, "HẾT CÂU HỎI ", 60, 80 + 220);
+            else themcauhoi2(cauHoi2, tempsttCauHoi + 2, 80 + 240);
+            if (sttCauHoi <= tempsttCauHoi + 3) addLabel(cauHoi3, "HẾT CÂU HỎI ", 60, 80 + 340);
+            else themcauhoi3(cauHoi3, tempsttCauHoi + 3, 80 + 360);
+            break;
+        }
     }
 
+    public void themcauhoi(JLabel tempLabel, int temp, int x) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+        listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
+        addLabel(dapanA, listDA1.get(0).getAn1(), 80, x);
+        if (listDA1.get(0).getTypee() == true) dapanA.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB, listDA1.get(1).getAn1(), 80, x + 20);
+        if (listDA1.get(1).getTypee() == true) dapanB.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC, listDA1.get(2).getAn1(), 80, x + 40);
+        if (listDA1.get(2).getTypee() == true) dapanC.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD, listDA1.get(3).getAn1(), 80, x + 60);
+        if (listDA1.get(3).getTypee() == true) dapanD.setText("--> " + listDA1.get(3).getAn1());
+    }
+
+    public void themcauhoi1(JLabel tempLabel, int temp, int x) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+        listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
+        addLabel(dapanA1, listDA1.get(0).getAn1(), 80, x);
+        if (listDA1.get(0).getTypee() == true) dapanA1.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB1, listDA1.get(1).getAn1(), 80, x + 20);
+        if (listDA1.get(1).getTypee() == true) dapanB1.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC1, listDA1.get(2).getAn1(), 80, x + 40);
+        if (listDA1.get(2).getTypee() == true) dapanC1.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD1, listDA1.get(3).getAn1(), 80, x + 60);
+        if (listDA1.get(3).getTypee() == true) dapanD1.setText("--> " + listDA1.get(3).getAn1());
+    }
+
+    public void themcauhoi2(JLabel tempLabel, int temp, int x) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+        listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
+        addLabel(dapanA2, listDA1.get(0).getAn1(), 80, x);
+        if (listDA1.get(0).getTypee() == true) dapanA2.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB2, listDA1.get(1).getAn1(), 80, x + 20);
+        if (listDA1.get(1).getTypee() == true) dapanB2.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC2, listDA1.get(2).getAn1(), 80, x + 40);
+        if (listDA1.get(2).getTypee() == true) dapanC2.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD2, listDA1.get(3).getAn1(), 80, x + 60);
+        if (listDA1.get(3).getTypee() == true) dapanD2.setText("--> " + listDA1.get(3).getAn1());
+    }
+
+    public void themcauhoi3(JLabel tempLabel, int temp, int x) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+        listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
+        addLabel(dapanA3, listDA1.get(0).getAn1(), 80, x);
+        if (listDA1.get(0).getTypee() == true) dapanA3.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB3, listDA1.get(1).getAn1(), 80, x + 20);
+        if (listDA1.get(1).getTypee() == true) dapanB3.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC3, listDA1.get(2).getAn1(), 80, x + 40);
+        if (listDA1.get(2).getTypee() == true) dapanC3.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD3, listDA1.get(3).getAn1(), 80, x + 60);
+        if (listDA1.get(3).getTypee() == true) dapanD3.setText("--> " + listDA1.get(3).getAn1());
+    }
 
     int check;
-    public void addButton(JButton yeah,int x) {
+
+    public void addButton(JButton yeah, int x) {
         yeah.setBounds(x, 550, 100, 100);
         add(yeah);
         yeah.addActionListener(this);
     }
-    public void addButton1(JButton yeah,int x) {
+
+    public void addButton1(JButton yeah, int x) {
         yeah.setBounds(x, 250, 55, 55);
         add(yeah);
         yeah.addActionListener(this);
     }
-    public void addLabel(JLabel temp,String str1, int x, int y) {
+
+    public void addLabel(JLabel temp, String str1, int x, int y) {
         temp.setText(str1);
         temp.setFont(new Font("Verdana", Font.PLAIN, 13));
         temp.setBounds(x, y, 700, 30);
         add(temp);
     }
+
+    int sttHienTai = 0;
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == nutOK)
@@ -129,25 +189,29 @@ public class showKetQua extends JFrame implements ActionListener {
                 clip1.stop();
             }
             case 2 -> {
+                themcauhois(sttHienTai += 4);
+                if (sttHienTai>sttCauHoi) sttHienTai=sttCauHoi;
 
             }
             case 3 -> {
-
+                themcauhois(sttHienTai -= 4);
+                if (sttHienTai<0) sttHienTai=0;
             }
         }
     }
+
     public static int docFileByBufferChar() {
         int num = 0;
         try {
 //            File f = new File("CongNghePM2.txt");
-            File f = new File("CongNghePM.txt");
+            File f = new File("CongNghePM2.txt");
             FileReader read = new FileReader(f);
             BufferedReader b = new BufferedReader(read);
             String d;
             if ((d = b.readLine()) != null)
                 num = Integer.parseInt(d);
             //lay so cau hoi de chay for de doc
-            for (int i = 0; i <= num-1; i++) {
+            for (int i = 0; i <= num - 1; i++) {
 //                System.out.println(i);
                 d = b.readLine();
                 boolean temp1 = false;
