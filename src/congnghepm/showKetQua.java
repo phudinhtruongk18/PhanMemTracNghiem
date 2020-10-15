@@ -17,27 +17,26 @@ public class showKetQua extends JFrame implements ActionListener {
     private final JButton nutOK;
     private final JButton next;
     private final JButton pre;
-    private JLabel tieuDe = new JLabel();
-    private JLabel cauHoi = new JLabel();
-    private JLabel dapanA = new JLabel();
-    private JLabel dapanB = new JLabel();
-    private JLabel dapanC = new JLabel();
-    private JLabel dapanD = new JLabel();
-    private JLabel cauHoi1 = new JLabel();
-    private JLabel dapanA1 = new JLabel();
-    private JLabel dapanB1 = new JLabel();
-    private JLabel dapanC1 = new JLabel();
-    private JLabel dapanD1 = new JLabel();
-    private JLabel cauHoi2 = new JLabel();
-    private JLabel dapanA2 = new JLabel();
-    private JLabel dapanB2 = new JLabel();
-    private JLabel dapanC2 = new JLabel();
-    private JLabel dapanD2 = new JLabel();
-    private JLabel cauHoi3 = new JLabel();
-    private JLabel dapanA3 = new JLabel();
-    private JLabel dapanB3 = new JLabel();
-    private JLabel dapanC3 = new JLabel();
-    private JLabel dapanD3 = new JLabel();
+    private final JLabel cauHoi = new JLabel();
+    private final JLabel dapanA = new JLabel();
+    private final JLabel dapanB = new JLabel();
+    private final JLabel dapanC = new JLabel();
+    private final JLabel dapanD = new JLabel();
+    private final JLabel cauHoi1 = new JLabel();
+    private final JLabel dapanA1 = new JLabel();
+    private final JLabel dapanB1 = new JLabel();
+    private final JLabel dapanC1 = new JLabel();
+    private final JLabel dapanD1 = new JLabel();
+    private final JLabel cauHoi2 = new JLabel();
+    private final JLabel dapanA2 = new JLabel();
+    private final JLabel dapanB2 = new JLabel();
+    private final JLabel dapanC2 = new JLabel();
+    private final JLabel dapanD2 = new JLabel();
+    private final JLabel cauHoi3 = new JLabel();
+    private final JLabel dapanA3 = new JLabel();
+    private final JLabel dapanB3 = new JLabel();
+    private final JLabel dapanC3 = new JLabel();
+    private final JLabel dapanD3 = new JLabel();
     private static final List<Question> listCauHoi1 = new ArrayList<>();
     private static List<Anwser> listDA1 = new ArrayList<>();
     int sttCauHoi = docFileByBufferChar();
@@ -48,6 +47,7 @@ public class showKetQua extends JFrame implements ActionListener {
         Icon iconNe = new ImageIcon("anh\\nex.png");
         Icon iconPr = new ImageIcon("anh\\pre.png");
 
+        JLabel tieuDe = new JLabel();
         tieuDe.setText("Đáp án của " + sttCauHoi + " câu hỏi");
         tieuDe.setFont(new Font("Verdana", Font.PLAIN, 18));
         tieuDe.setBounds(280, 20, 400, 30);
@@ -87,7 +87,7 @@ public class showKetQua extends JFrame implements ActionListener {
     }
 
     public void themcauhois(int tempsttCauHoi) {
-        while (tempsttCauHoi >= 0) {
+        if (tempsttCauHoi >= 0) {
             if (sttCauHoi <= tempsttCauHoi) addLabel(cauHoi, "HẾT CÂU HỎI ", 60, 60);
             else themcauhoi(cauHoi, tempsttCauHoi, 80);
             if (sttCauHoi <= tempsttCauHoi + 1) addLabel(cauHoi1, "HẾT CÂU HỎI ", 60, 80 + 100);
@@ -96,60 +96,59 @@ public class showKetQua extends JFrame implements ActionListener {
             else themcauhoi2(cauHoi2, tempsttCauHoi + 2, 80 + 240);
             if (sttCauHoi <= tempsttCauHoi + 3) addLabel(cauHoi3, "HẾT CÂU HỎI ", 60, 80 + 340);
             else themcauhoi3(cauHoi3, tempsttCauHoi + 3, 80 + 360);
-            break;
         }
     }
 
-    public void themcauhoi(JLabel tempLabel, int temp, int x) {
-        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+    public void themcauhoi(JLabel tempLabel, int temp, int y) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, y - 20);
         listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
-        addLabel(dapanA, listDA1.get(0).getAn1(), 80, x);
-        if (listDA1.get(0).getTypee() == true) dapanA.setText("--> " + listDA1.get(0).getAn1());
-        addLabel(dapanB, listDA1.get(1).getAn1(), 80, x + 20);
-        if (listDA1.get(1).getTypee() == true) dapanB.setText("--> " + listDA1.get(1).getAn1());
-        addLabel(dapanC, listDA1.get(2).getAn1(), 80, x + 40);
-        if (listDA1.get(2).getTypee() == true) dapanC.setText("--> " + listDA1.get(2).getAn1());
-        addLabel(dapanD, listDA1.get(3).getAn1(), 80, x + 60);
-        if (listDA1.get(3).getTypee() == true) dapanD.setText("--> " + listDA1.get(3).getAn1());
+        addLabel(dapanA, listDA1.get(0).getAn1(), 80, y);
+        if (listDA1.get(0).getTypee()) dapanA.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB, listDA1.get(1).getAn1(), 80, y + 20);
+        if (listDA1.get(1).getTypee()) dapanB.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC, listDA1.get(2).getAn1(), 80, y + 40);
+        if (listDA1.get(2).getTypee()) dapanC.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD, listDA1.get(3).getAn1(), 80, y + 60);
+        if (listDA1.get(3).getTypee()) dapanD.setText("--> " + listDA1.get(3).getAn1());
     }
 
-    public void themcauhoi1(JLabel tempLabel, int temp, int x) {
-        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+    public void themcauhoi1(JLabel tempLabel, int temp, int y) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, y - 20);
         listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
-        addLabel(dapanA1, listDA1.get(0).getAn1(), 80, x);
-        if (listDA1.get(0).getTypee() == true) dapanA1.setText("--> " + listDA1.get(0).getAn1());
-        addLabel(dapanB1, listDA1.get(1).getAn1(), 80, x + 20);
-        if (listDA1.get(1).getTypee() == true) dapanB1.setText("--> " + listDA1.get(1).getAn1());
-        addLabel(dapanC1, listDA1.get(2).getAn1(), 80, x + 40);
-        if (listDA1.get(2).getTypee() == true) dapanC1.setText("--> " + listDA1.get(2).getAn1());
-        addLabel(dapanD1, listDA1.get(3).getAn1(), 80, x + 60);
-        if (listDA1.get(3).getTypee() == true) dapanD1.setText("--> " + listDA1.get(3).getAn1());
+        addLabel(dapanA1, listDA1.get(0).getAn1(), 80, y);
+        if (listDA1.get(0).getTypee()) dapanA1.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB1, listDA1.get(1).getAn1(), 80, y + 20);
+        if (listDA1.get(1).getTypee()) dapanB1.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC1, listDA1.get(2).getAn1(), 80, y + 40);
+        if (listDA1.get(2).getTypee()) dapanC1.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD1, listDA1.get(3).getAn1(), 80, y + 60);
+        if (listDA1.get(3).getTypee()) dapanD1.setText("--> " + listDA1.get(3).getAn1());
     }
 
-    public void themcauhoi2(JLabel tempLabel, int temp, int x) {
-        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+    public void themcauhoi2(JLabel tempLabel, int temp, int y) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, y - 20);
         listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
-        addLabel(dapanA2, listDA1.get(0).getAn1(), 80, x);
-        if (listDA1.get(0).getTypee() == true) dapanA2.setText("--> " + listDA1.get(0).getAn1());
-        addLabel(dapanB2, listDA1.get(1).getAn1(), 80, x + 20);
-        if (listDA1.get(1).getTypee() == true) dapanB2.setText("--> " + listDA1.get(1).getAn1());
-        addLabel(dapanC2, listDA1.get(2).getAn1(), 80, x + 40);
-        if (listDA1.get(2).getTypee() == true) dapanC2.setText("--> " + listDA1.get(2).getAn1());
-        addLabel(dapanD2, listDA1.get(3).getAn1(), 80, x + 60);
-        if (listDA1.get(3).getTypee() == true) dapanD2.setText("--> " + listDA1.get(3).getAn1());
+        addLabel(dapanA2, listDA1.get(0).getAn1(), 80, y);
+        if (listDA1.get(0).getTypee()) dapanA2.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB2, listDA1.get(1).getAn1(), 80, y + 20);
+        if (listDA1.get(1).getTypee()) dapanB2.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC2, listDA1.get(2).getAn1(), 80, y + 40);
+        if (listDA1.get(2).getTypee()) dapanC2.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD2, listDA1.get(3).getAn1(), 80, y + 60);
+        if (listDA1.get(3).getTypee()) dapanD2.setText("--> " + listDA1.get(3).getAn1());
     }
 
-    public void themcauhoi3(JLabel tempLabel, int temp, int x) {
-        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, x - 20);
+    public void themcauhoi3(JLabel tempLabel, int temp, int y) {
+        addLabel(tempLabel, "Câu " + (temp + 1) + ": " + listCauHoi1.get(temp).getQue(), 60, y - 20);
         listDA1 = listCauHoi1.get(temp).getTraloi();                         //se thay doi
-        addLabel(dapanA3, listDA1.get(0).getAn1(), 80, x);
-        if (listDA1.get(0).getTypee() == true) dapanA3.setText("--> " + listDA1.get(0).getAn1());
-        addLabel(dapanB3, listDA1.get(1).getAn1(), 80, x + 20);
-        if (listDA1.get(1).getTypee() == true) dapanB3.setText("--> " + listDA1.get(1).getAn1());
-        addLabel(dapanC3, listDA1.get(2).getAn1(), 80, x + 40);
-        if (listDA1.get(2).getTypee() == true) dapanC3.setText("--> " + listDA1.get(2).getAn1());
-        addLabel(dapanD3, listDA1.get(3).getAn1(), 80, x + 60);
-        if (listDA1.get(3).getTypee() == true) dapanD3.setText("--> " + listDA1.get(3).getAn1());
+        addLabel(dapanA3, listDA1.get(0).getAn1(), 80, y);
+        if (listDA1.get(0).getTypee()) dapanA3.setText("--> " + listDA1.get(0).getAn1());
+        addLabel(dapanB3, listDA1.get(1).getAn1(), 80, y + 20);
+        if (listDA1.get(1).getTypee()) dapanB3.setText("--> " + listDA1.get(1).getAn1());
+        addLabel(dapanC3, listDA1.get(2).getAn1(), 80, y + 40);
+        if (listDA1.get(2).getTypee()) dapanC3.setText("--> " + listDA1.get(2).getAn1());
+        addLabel(dapanD3, listDA1.get(3).getAn1(), 80, y + 60);
+        if (listDA1.get(3).getTypee()) dapanD3.setText("--> " + listDA1.get(3).getAn1());
     }
 
     int check;
@@ -190,7 +189,7 @@ public class showKetQua extends JFrame implements ActionListener {
             }
             case 2 -> {
                 themcauhois(sttHienTai += 4);
-                if (sttHienTai>sttCauHoi) sttHienTai=sttCauHoi;
+                if (sttHienTai>sttCauHoi) sttHienTai=sttCauHoi-8;
 
             }
             case 3 -> {
