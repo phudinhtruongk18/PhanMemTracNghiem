@@ -14,14 +14,14 @@ import static congnghepm.Question.docFileByBufferChar;
 import static congnghepm.Question.getListCauHoi;
 
 public class RealApp extends JFrame implements ActionListener {
-    private static List<Question> listQUES = new ArrayList<Question>();
-    private static List<Anwser> listDA = new ArrayList<Anwser>();
+    private static List<Question> listQUES = new ArrayList<>();
+    private static List<Anwser> listDA = new ArrayList<>();
     private final JProgressBar tiendo;
-    private JButton button1;
-    private JButton button2;
-    private JButton button4;
-    private JButton button3;
-    private JLabel maxtext;
+    private final JButton button1;
+    private final JButton button2;
+    private final JButton button4;
+    private final JButton button3;
+    private final JLabel maxtext;
     int socauhoi=docFileByBufferChar();
     long batDauThi;
     Clip clip1;
@@ -63,21 +63,13 @@ public class RealApp extends JFrame implements ActionListener {
         try
         {
         URL url = getClass().getClassLoader().getResource("helltaker.wav");
-        AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            assert url != null;
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
         clip1 = AudioSystem.getClip();
         clip1.open(audioIn);
         clip1.start();
         } catch(
-                UnsupportedAudioFileException e)
-        {
-            e.printStackTrace();
-        } catch(
-                IOException e)
-
-        {
-            e.printStackTrace();
-        } catch(
-                LineUnavailableException e)
+                UnsupportedAudioFileException | IOException | LineUnavailableException e)
         {
             e.printStackTrace();
         }
@@ -101,18 +93,10 @@ public class RealApp extends JFrame implements ActionListener {
         else if (e.getSource() == button4)
             check = 4;
         switch (check) {
-            case 1:
-                laplaiEvent(button1, 0);
-                break;
-            case 2:
-                laplaiEvent(button2, 1);
-                break;
-            case 3:
-                laplaiEvent(button3, 2);
-                break;
-            case 4:
-                laplaiEvent(button4, 3);
-                break;
+            case 1 -> laplaiEvent(button1, 0);
+            case 2 -> laplaiEvent(button2, 1);
+            case 3 -> laplaiEvent(button3, 2);
+            case 4 -> laplaiEvent(button4, 3);
         }
 
     }
@@ -175,22 +159,14 @@ public class RealApp extends JFrame implements ActionListener {
         try
         {
             URL url = getClass().getClassLoader().getResource(music);
+            assert url != null;
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
             Clip clip = AudioSystem.getClip();
             clip.open(audioIn);
             clip.start();
 
         } catch(
-                UnsupportedAudioFileException e)
-        {
-            e.printStackTrace();
-        } catch(
-                IOException e)
-
-        {
-            e.printStackTrace();
-        } catch(
-                LineUnavailableException e)
+                UnsupportedAudioFileException | IOException | LineUnavailableException e)
         {
             e.printStackTrace();
         }

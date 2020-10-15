@@ -8,30 +8,21 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.net.URL;
 
-public class ketthuc extends JFrame implements ActionListener{
-    private final JButton nutXuatKQ;
-    private final JButton nutThiLai;
-    String tempName;
-    Clip clip1;
-    public ketthuc(int soCH,String name,float totalTime,int wrong) {
-        tempName = name;
-        Icon iconThiLai = new ImageIcon("anh\\thilai.png");
-        Icon iconXemKetQua = new ImageIcon("anh\\xemketqua.png");
+public class showKetQua extends JFrame implements ActionListener{
+    private final JButton nutOK;
+    public showKetQua() {
+        Icon iconOk = new ImageIcon("anh\\okeynha.png");
         addLabel("Người thi "+name,40);
-        addLabel("Đã luyện tập "+soCH+" câu hỏi trong "+(int)totalTime/60+"p"+(int)totalTime%60+"s",70);
-        addLabel("Đã chọn sai "+wrong+" lần",100);
+        nutOK = new JButton(iconOk);
+        addButton(nutOK,15);
 
-        setTitle("KET QUA LUYEN TAP");
+        setTitle("Dap an");
         setSize(290, 350);
         setLayout(null);
         setLocationRelativeTo(null);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         //xu ly button
-        nutXuatKQ = new JButton(iconXemKetQua);
-        nutThiLai = new JButton(iconThiLai);
-        addButton(nutXuatKQ,15);
-        addButton(nutThiLai,145);
         try
         {
             URL url = getClass().getClassLoader().getResource("thiendang.wav");
@@ -50,7 +41,7 @@ public class ketthuc extends JFrame implements ActionListener{
 
     public static void main(String[] args){
         float i= 8;
-        new ketthuc(69,"test main",i,8);
+        new showKetQua(69,"test main",i,8);
     }
 
     int check;
