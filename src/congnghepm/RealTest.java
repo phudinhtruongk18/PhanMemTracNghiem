@@ -92,10 +92,10 @@ public class RealTest extends JFrame implements ActionListener {
         else if (e.getSource() == button4)
             check = 4;
         switch (check) {
-            case 1 -> laplaiEvent(button1, 0);
-            case 2 -> laplaiEvent(button2, 1);
-            case 3 -> laplaiEvent(button3, 2);
-            case 4 -> laplaiEvent(button4, 3);
+            case 1 -> laplaiEvent(0);
+            case 2 -> laplaiEvent(1);
+            case 3 -> laplaiEvent(2);
+            case 4 -> laplaiEvent(3);
         }
 
     }
@@ -128,9 +128,9 @@ public class RealTest extends JFrame implements ActionListener {
         button4.setBackground(Color.white);
     }
 
-    public void laplaiEvent(JButton nut, int index) {
+    public void laplaiEvent(int index) {
+        amThanh("motcainutsiudangiu.wav");
         if (listDA.get(index).getTypee()) {
-            amThanh("hi.wav");
             {
                 if (checkRW == 0) System.out.println("Back phat bach trung" + checkRW);
                 checkRW = 0;
