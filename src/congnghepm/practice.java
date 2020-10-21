@@ -13,18 +13,22 @@ import java.util.List;
 import static congnghepm.Question.docFileByBufferChar;
 import static congnghepm.Question.getListCauHoi;
 
-public class RealApp extends JFrame implements ActionListener {
-    private static List<Question> listQUES = new ArrayList<Question>();
-    private static List<Anwser> listDA = new ArrayList<Anwser>();
+public class practice extends JFrame implements ActionListener {
+    private static List<Question> listQUES = new ArrayList<>();
+    private static List<Anwser> listDA = new ArrayList<>();
     private final JProgressBar tiendo;
-    private JButton button1;
-    private JButton button2;
-    private JButton button4;
-    private JButton button3;
-    private JLabel maxtext;
+    private final JButton button1;
+    private final JButton button2;
+    private final JButton button4;
+    private final JButton button3;
+    private final JLabel maxtext;
     int socauhoi=docFileByBufferChar();
-    long batDauThi = System.currentTimeMillis();
-    public RealApp(String nameTesterr) {
+    long batDauThi;
+    Clip clip1;
+    String name;
+    int check,checkRW=0,checkWrong=0;
+    public practice(String nameTesterr) {
+        name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
         listDA = listQUES.get(0).getTraloi();                         //se thay doi
@@ -56,17 +60,27 @@ public class RealApp extends JFrame implements ActionListener {
 //set vitri cau cau tra loi
         laplaicaiTEXT();                            //sep lap
         maxtext.setText(listQUES.get(0).getQue());  //se thay doi
-        amThanh("helltaker.wav");
+        try
+        {
+        URL url = getClass().getClassLoader().getResource("helltaker.wav");
+            assert url != null;
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+        clip1 = AudioSystem.getClip();
+        clip1.open(audioIn);
+        clip1.start();
+        } catch(
+                UnsupportedAudioFileException | IOException | LineUnavailableException e)
+        {
+            e.printStackTrace();
+        }
         amThanh("welcome.wav");
         batDauThi = System.currentTimeMillis();
     }
 
     public static void main(String[] args) {
-        new RealApp("Phu DInh");
+        new practice("Phu DInh");
 
     }
-
-    int check,checkRW=0;
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -79,34 +93,23 @@ public class RealApp extends JFrame implements ActionListener {
         else if (e.getSource() == button4)
             check = 4;
         switch (check) {
-            case 1:
-                laplaiEvent(button1, 0);
-                break;
-            case 2:
-                laplaiEvent(button2, 1);
-                break;
-            case 3:
-                laplaiEvent(button3, 2);
-                break;
-            case 4:
-                laplaiEvent(button4, 3);
-                break;
+            case 1 -> laplaiEvent(button1, 0);
+            case 2 -> laplaiEvent(button2, 1);
+            case 3 -> laplaiEvent(button3, 2);
+            case 4 -> laplaiEvent(button4, 3);
         }
 
     }
-
     public void laplaicai(JButton yeah, int y) {
         yeah.setBounds(10, y, 375, 50);
         add(yeah);
         yeah.addActionListener(this);
     }
-
     public void laplaicai2(JButton yeah, int y) {
         yeah.setBounds(400, y, 375, 50);
         add(yeah);
         yeah.addActionListener(this);
     }
-
     public void laplaicaiTEXT() {                   //se lap lai
         button1.setText(listDA.get(0).getAn1());
         button2.setText(listDA.get(1).getAn1());
@@ -130,8 +133,9 @@ public class RealApp extends JFrame implements ActionListener {
                 setEnabled(false);
                 long ketThucThi = System.currentTimeMillis();
                 float totalTime = (ketThucThi-batDauThi)/1000F;
-                System.out.println("Tong thoi gian thi :"+totalTime);
                 dispose();
+                clip1.stop();
+                new ketthuc(socauhoi,name,totalTime,checkWrong);
             }
             else {
                 System.out.println("stt:" + sttCauHoi);
@@ -146,34 +150,23 @@ public class RealApp extends JFrame implements ActionListener {
         } else {
             nut.setBackground(Color.RED);
             checkRW++;
+            checkWrong++;
             if (checkRW!=0) System.out.println("sai lan thu "+checkRW);
         }
 
     }
-
     public void amThanh(String music) {
         try
         {
-            // Open an audio input stream.
             URL url = getClass().getClassLoader().getResource(music);
+            assert url != null;
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-            // Get a sound clip resource.
             Clip clip = AudioSystem.getClip();
-            // Open audio clip and load samples from the audio input stream.
             clip.open(audioIn);
             clip.start();
-        } catch(
-                UnsupportedAudioFileException e)
 
-        {
-            e.printStackTrace();
         } catch(
-                IOException e)
-
-        {
-            e.printStackTrace();
-        } catch(
-                LineUnavailableException e)
+                UnsupportedAudioFileException | IOException | LineUnavailableException e)
         {
             e.printStackTrace();
         }

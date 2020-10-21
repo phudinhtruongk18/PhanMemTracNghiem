@@ -30,7 +30,7 @@ public class Question {
             System.out.println(a);
         }
     }
-    private void them(Anwser a) {
+    public void them(Anwser a) {
         traloi.add(a);
     }
     public static int docFileByBufferChar() {
