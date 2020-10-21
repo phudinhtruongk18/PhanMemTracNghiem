@@ -35,7 +35,7 @@ public class RealTest extends JFrame implements ActionListener {
         listDA = listQUES.get(0).getTraloi();                         //se thay doi
         setSize(800, 310);
         setVisible(true);
-        setTitle("Cong Nghe Phan Mem");
+        setTitle("Công Nghệ Phần Mềm");
         setLayout(null);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
