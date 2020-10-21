@@ -1,8 +1,8 @@
 # PhanMemTracNghiem
 #Phú Đình Trương 22/10
-mình rất tự hào về chương trình java đầu tiên này
-tuy nó rất đơng giản nhưng mình học được rất nhiều thứ từ nó
-cám ơn môn học lập trình Java đã giúp mình rất nhiều để hoàn thành chương trình đầu tiên trong mấy năm học đại học của mình
+mình rất tự hào về chương trình java đầu tiên này. 
+tuy nó rất đơn giản nhưng mình học được rất nhiều thứ từ nó. 
+cám ơn môn học lập trình Java đã giúp mình rất nhiều để hoàn thành chương trình đầu tiên trong mấy năm học đại học của mình .
 *********************
 
 chương trình trắc nghiệm dựa vào Java Swing và xử lí event cơ bản
