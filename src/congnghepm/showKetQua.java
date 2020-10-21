@@ -38,8 +38,18 @@ public class showKetQua extends JFrame implements ActionListener {
     private final JLabel dapanC3 = new JLabel();
     private final JLabel dapanD3 = new JLabel();
     private static final List<Question> listCauHoi1 = new ArrayList<>();
-    private static List<Anwser> listDA1 = new ArrayList<>();
-    int sttCauHoi = docFileByBufferChar();
+    private static List<Anwser> listDA1;
+
+    static {
+        listDA1 = new ArrayList<>();
+    }
+
+    int sttCauHoi;
+
+    {
+        sttCauHoi = docFileByBufferChar();
+    }
+
     Clip clip1;
 
     public showKetQua() {
@@ -189,7 +199,7 @@ public class showKetQua extends JFrame implements ActionListener {
             }
             case 2 -> {
                 themcauhois(sttHienTai += 4);
-                if (sttHienTai>sttCauHoi) sttHienTai=sttCauHoi-8;
+                if (sttHienTai>sttCauHoi) sttHienTai=sttCauHoi;
 
             }
             case 3 -> {

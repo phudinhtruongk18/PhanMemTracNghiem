@@ -13,7 +13,7 @@ import java.util.List;
 import static congnghepm.Question.docFileByBufferChar;
 import static congnghepm.Question.getListCauHoi;
 
-public class RealApp extends JFrame implements ActionListener {
+public class practice extends JFrame implements ActionListener {
     private static List<Question> listQUES = new ArrayList<>();
     private static List<Anwser> listDA = new ArrayList<>();
     private final JProgressBar tiendo;
@@ -27,7 +27,7 @@ public class RealApp extends JFrame implements ActionListener {
     Clip clip1;
     String name;
     int check,checkRW=0,checkWrong=0;
-    public RealApp(String nameTesterr) {
+    public practice(String nameTesterr) {
         name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
@@ -78,7 +78,7 @@ public class RealApp extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new RealApp("Phu DInh");
+        new practice("Phu DInh");
 
     }
 

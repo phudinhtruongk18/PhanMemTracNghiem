@@ -77,7 +77,7 @@ public class ketthuc extends JFrame implements ActionListener{
             case 2 -> {
                 dispose();
                 clip1.stop();
-                new RealApp(tempName);
+                new start(tempName);
             }
         }
     }
