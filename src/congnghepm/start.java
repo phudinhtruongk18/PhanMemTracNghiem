@@ -1,6 +1,7 @@
 package congnghepm;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,6 +13,8 @@ public class start extends JFrame implements ActionListener {
     private final JLabel maxtext = new JLabel();
 
     public start() {
+        Image icon = Toolkit.getDefaultToolkit().getImage("anh\\icon.png");
+        setIconImage(icon);
         Icon iconPractice = new ImageIcon("anh\\practice.png");
         Icon iconTest = new ImageIcon("anh\\test.png");
         maxtext.setText("Xin mời bạn nhập tên (Enter để kiểm tra tên)");
@@ -57,8 +60,7 @@ public class start extends JFrame implements ActionListener {
             diOnThi.setVisible(false);
         } else {
             JOptionPane.showMessageDialog(this, "Tên của bạn được chấp nhận");
-            maxtext.setText(nameTester.getText()+" vui lòng chọn chế độ !");
-            setTitle("Phú's Quiz made by java swing");
+            setTitle("Phú's Quiz");
             nameTester.setVisible(false);
             diThi.setVisible(true);
             diOnThi.setVisible(true);
