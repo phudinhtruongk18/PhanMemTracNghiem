@@ -11,6 +11,9 @@ Chương trình trắc nghiệm dựa vào Java Swing và xử lí event cơ b�
 * có thể tích hợp với chương trình python mình đang làm để sử dụng cho người câm và người khuyết tật
 *********************
 Hướng dẫn sử dụng
+*********************
+Các bạn chạy file start.java để khởi động chương trình nha!
+*********************
 ![alt text](https://github.com/phudinhtruongk18/PhanMemTracNghiem/blob/master/anh/huongdan/huongdan.jpg?raw=true)
 *********************
 Nguyên tắc hoạt động
