@@ -29,13 +29,15 @@ public class RealTest extends JFrame implements ActionListener {
     int check, checkRW = 0, checkWrong = 0;
 
     public RealTest(String nameTesterr) {
+        Image iconTest = Toolkit.getDefaultToolkit().getImage("anh\\test.png");
+        setIconImage(iconTest);
         name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
         listDA = listQUES.get(0).getTraloi();                         //se thay doi
         setSize(800, 310);
         setVisible(true);
-        setTitle("Cong Nghe Phan Mem");
+        setTitle("Công Nghệ Phần Mềm");
         setLayout(null);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -72,7 +74,7 @@ public class RealTest extends JFrame implements ActionListener {
                 UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
         }
-        amThanh("welcome.wav");
+//        amThanh("welcome.wav");
         batDauThi = System.currentTimeMillis();
     }
 
@@ -92,10 +94,10 @@ public class RealTest extends JFrame implements ActionListener {
         else if (e.getSource() == button4)
             check = 4;
         switch (check) {
-            case 1 -> laplaiEvent(button1, 0);
-            case 2 -> laplaiEvent(button2, 1);
-            case 3 -> laplaiEvent(button3, 2);
-            case 4 -> laplaiEvent(button4, 3);
+            case 1 -> laplaiEvent(0);
+            case 2 -> laplaiEvent(1);
+            case 3 -> laplaiEvent(2);
+            case 4 -> laplaiEvent(3);
         }
 
     }
@@ -128,9 +130,9 @@ public class RealTest extends JFrame implements ActionListener {
         button4.setBackground(Color.white);
     }
 
-    public void laplaiEvent(JButton nut, int index) {
+    public void laplaiEvent(int index) {
+        amThanh("motcainutsiudangiu.wav");
         if (listDA.get(index).getTypee()) {
-            amThanh("hi.wav");
             {
                 if (checkRW == 0) System.out.println("Back phat bach trung" + checkRW);
                 checkRW = 0;

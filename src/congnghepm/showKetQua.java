@@ -56,7 +56,8 @@ public class showKetQua extends JFrame implements ActionListener {
         Icon iconOk = new ImageIcon("anh\\okeynha.png");
         Icon iconNe = new ImageIcon("anh\\nex.png");
         Icon iconPr = new ImageIcon("anh\\pre.png");
-
+        Image iconTest = Toolkit.getDefaultToolkit().getImage("anh\\show.jpg");
+        setIconImage(iconTest);
         JLabel tieuDe = new JLabel();
         tieuDe.setText("Đáp án của " + sttCauHoi + " câu hỏi");
         tieuDe.setFont(new Font("Verdana", Font.PLAIN, 18));
