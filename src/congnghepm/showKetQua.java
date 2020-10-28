@@ -212,8 +212,8 @@ public class showKetQua extends JFrame implements ActionListener {
     public static int docFileByBufferChar() {
         int num = 0;
         try {
-//            File f = new File("CongNghePM2.txt");
-            File f = new File("CongNghePM2.txt");
+//            File f = new File("125CauCongNghePM2.txt");
+            File f = new File("125CauCongNghePM2.txt");
             FileReader read = new FileReader(f);
             BufferedReader b = new BufferedReader(read);
             String d;

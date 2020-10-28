@@ -36,8 +36,9 @@ public class Question {
     public static int docFileByBufferChar() {
         int num = 0;
         try {
-//            File f = new File("CongNghePM2.txt");
-            File f = new File("CongNghePM.txt");
+            // bật dòng code này và off dòng lệnh dưới để chạy được 125 câu hỏi thay vì 5 câu hỏi
+//            File f = new File("125CauCongNghePM2.txt");
+            File f = new File("5CauCongNghePM.txt"); // chỉ chạy 5 câu thôi
             FileReader read = new FileReader(f);
             BufferedReader b = new BufferedReader(read);
             String d;
