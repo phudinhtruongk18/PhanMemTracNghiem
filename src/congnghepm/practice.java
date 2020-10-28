@@ -28,6 +28,8 @@ public class practice extends JFrame implements ActionListener {
     String name;
     int check,checkRW=0,checkWrong=0;
     public practice(String nameTesterr) {
+        Image iconTest = Toolkit.getDefaultToolkit().getImage("anh\\practice.png");
+        setIconImage(iconTest);
         name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
@@ -73,7 +75,7 @@ public class practice extends JFrame implements ActionListener {
         {
             e.printStackTrace();
         }
-        amThanh("welcome.wav");
+//        amThanh("welcome.wav");
         batDauThi = System.currentTimeMillis();
     }
 
@@ -126,7 +128,7 @@ public class practice extends JFrame implements ActionListener {
     public void laplaiEvent(JButton nut,int index) {
         if (listDA.get(index).getTypee()) {
             sttCauHoi++;
-            amThanh("hi.wav");
+//            amThanh("hi.wav");
 
             if (sttCauHoi==socauhoi){
                 System.out.println("bAN BAN THI XONG");

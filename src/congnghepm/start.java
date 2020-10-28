@@ -1,6 +1,7 @@
 package congnghepm;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,6 +13,8 @@ public class start extends JFrame implements ActionListener {
     private final JLabel maxtext = new JLabel();
 
     public start() {
+        Image icon = Toolkit.getDefaultToolkit().getImage("anh\\icon.png");
+        setIconImage(icon);
         Icon iconPractice = new ImageIcon("anh\\practice.png");
         Icon iconTest = new ImageIcon("anh\\test.png");
         maxtext.setText("Xin moi ban nhap ten (Enter de kiem tra ten)");

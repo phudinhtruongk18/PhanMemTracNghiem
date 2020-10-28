@@ -29,6 +29,8 @@ public class RealTest extends JFrame implements ActionListener {
     int check, checkRW = 0, checkWrong = 0;
 
     public RealTest(String nameTesterr) {
+        Image iconTest = Toolkit.getDefaultToolkit().getImage("anh\\test.png");
+        setIconImage(iconTest);
         name = nameTesterr;
         System.out.println(socauhoi);
         listQUES = getListCauHoi();                                   //se thay doi
@@ -72,7 +74,7 @@ public class RealTest extends JFrame implements ActionListener {
                 UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
         }
-        amThanh("welcome.wav");
+//        amThanh("welcome.wav");
         batDauThi = System.currentTimeMillis();
     }
 
@@ -130,7 +132,7 @@ public class RealTest extends JFrame implements ActionListener {
 
     public void laplaiEvent(JButton nut, int index) {
         if (listDA.get(index).getTypee()) {
-            amThanh("hi.wav");
+//            amThanh("hi.wav");
             {
                 if (checkRW == 0) System.out.println("Back phat bach trung" + checkRW);
                 checkRW = 0;

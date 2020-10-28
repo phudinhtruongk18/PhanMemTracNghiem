@@ -14,6 +14,8 @@ public class ketthuc extends JFrame implements ActionListener{
     String tempName;
     Clip clip1;
     public ketthuc(int soCH,String name,float totalTime,int wrong) {
+        Image iconTest = Toolkit.getDefaultToolkit().getImage("anh\\ketqua.png");
+        setIconImage(iconTest);
         tempName = name;
         Icon iconThiLai = new ImageIcon("anh\\thilai.png");
         Icon iconXemKetQua = new ImageIcon("anh\\xemketqua.png");
@@ -72,8 +74,7 @@ public class ketthuc extends JFrame implements ActionListener{
         else if (e.getSource() == nutThiLai)
             check = 2;
         switch (check) {
-            case 1 -> { new showKetQua();
-            }
+            case 1 -> new showKetQua();
             case 2 -> {
                 dispose();
                 clip1.stop();
