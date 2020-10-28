@@ -1,6 +1,6 @@
 # PhanMemTracNghiem
 #Phú Đình Trương 22/10
-![alt text](https://github.com/phudinhtruongk18/PhanMemTracNghiem/blob/master/anh/huongdan/me.png?raw=true)
+![alt text](https://github.com/phudinhtruongk18/PhanMemTracNghiem/blob/master/anh/huongdan/me.jpg?raw=true)
 Phu' rất tự hào về chương trình java đầu tiên này. 
 Tuy nó rất đơn giản nhưng mình học được rất nhiều thứ từ nó. 
 Cám ơn môn học lập trình Java đã giúp mình rất nhiều để hoàn thành chương trình đầu tiên trong mấy năm học đại học của mình .
