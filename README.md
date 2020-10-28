@@ -14,3 +14,5 @@ Hướng dẫn sử dụng
 ![alt text](https://github.com/phudinhtruongk18/PhanMemTracNghiem/blob/master/anh/huongdan/huongdan.jpg?raw=true)
 *********************
 Nguyên tắc hoạt động
+
+![alt text](https://github.com/phudinhtruongk18/PhanMemTracNghiem/blob/master/anh/huongdan/doAn.jpg?raw=true)
