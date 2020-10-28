@@ -9,3 +9,4 @@ chương trình trắc nghiệm dựa vào Java Swing và xử lí event cơ b�
 * có xử dụng icon do chính mình copy và thiết kế
 * thêm âm thanh để gây hứng thú
 * có thể tích hợp với chương trình python mình đang làm để sử dụng cho người câm và người khuyết tật
+![Alt text](anh/huongdan/img.jpg?raw=true "huongdan.jpg")
