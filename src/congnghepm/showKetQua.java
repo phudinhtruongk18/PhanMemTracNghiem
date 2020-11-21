@@ -95,9 +95,6 @@ public class showKetQua extends JFrame implements ActionListener {
 
     }
 
-    public static void main(String[] args) {
-        new showKetQua();
-    }
 
     public void themcauhois(int tempsttCauHoi) {
         if (tempsttCauHoi >= 0) {

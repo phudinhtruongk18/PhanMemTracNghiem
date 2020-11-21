@@ -50,10 +50,6 @@ public class ketthuc extends JFrame implements ActionListener{
 
     }
 
-    public static void main(String[] args){
-        float i= 8;
-        new ketthuc(69,"test main",i,8);
-    }
 
     int check;
     public void addButton(JButton yeah,int x) {

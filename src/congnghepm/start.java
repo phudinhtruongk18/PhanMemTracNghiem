@@ -17,7 +17,7 @@ public class start extends JFrame implements ActionListener {
         setIconImage(icon);
         Icon iconPractice = new ImageIcon("anh\\practice.png");
         Icon iconTest = new ImageIcon("anh\\test.png");
-        maxtext.setText("Xin moi ban nhap ten (Enter de kiem tra ten)");
+        maxtext.setText("Xin mời bạn nhập tên (Enter dể kiểm tra tên)");
         maxtext.setBounds(70, 40, 400, 30);
         nameTester = new JTextField();
         nameTester.setBounds(93, 90, 200, 30);
@@ -28,7 +28,7 @@ public class start extends JFrame implements ActionListener {
         addButton(diOnThi, 50);
         diThi = new JButton(iconTest);
         addButton(diThi, 230);
-        setTitle("Nhap thong tin");
+        setTitle("Nhập thông tin");
         setSize(410, 220);
         setLayout(null);
         setLocationRelativeTo(null);
@@ -38,7 +38,7 @@ public class start extends JFrame implements ActionListener {
 
     public start(String tempName) {
         start again = new start();
-        again.maxtext.setText(tempName+" vui long chon che do thi!");
+        again.maxtext.setText(tempName+" vui lòng chọn chế độ thi!");
         again.nameTester.setText(tempName);
         again.nameTester.setVisible(false);
         again.diThi.setVisible(true);
@@ -55,12 +55,12 @@ public class start extends JFrame implements ActionListener {
 
     private void maxsachActionPerformed(ActionEvent actionEvent) {
         if (nameTester.getText().matches(".*[0-9].*")) {
-            JOptionPane.showMessageDialog(this, "Ten nguoi chu phai robot dau ma number khong z?\n");
+            JOptionPane.showMessageDialog(this, "Tên ngườii chứ phải robot đâu mà number không z?\n");
             diThi.setVisible(false);
             diOnThi.setVisible(false);
         } else {
-            JOptionPane.showMessageDialog(this, "Ten cua ban duoc chap nhan");
-            maxtext.setText(nameTester.getText()+" vui long chon che do thi!");
+            JOptionPane.showMessageDialog(this, "Tên của bạn được chấp nhận");
+            maxtext.setText(nameTester.getText()+" vui lòng chọn chế độ thi!");
             nameTester.setVisible(false);
             diThi.setVisible(true);
             diOnThi.setVisible(true);

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="PhuQuiz">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="root">
+      <element id="module-output" name="quizJavaSwing" />
+    </root>
+  </artifact>
+</component>

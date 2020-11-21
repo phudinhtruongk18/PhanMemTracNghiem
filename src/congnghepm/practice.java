@@ -79,10 +79,6 @@ public class practice extends JFrame implements ActionListener {
         batDauThi = System.currentTimeMillis();
     }
 
-    public static void main(String[] args) {
-        new practice("Phu DInh");
-
-    }
 
     @Override
     public void actionPerformed(ActionEvent e) {
